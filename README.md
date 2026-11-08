@@ -2,25 +2,25 @@
 
 地形笔刷、单位 / 可破坏物摆放、地图渲染。
 
-工程内不含美术资源，运行时从 `converted.pck` 读取。
+工程内不含美术资源，运行时从 `extract.pck` 读取。
 
 ## 资源
 
 启动时 `ExternalAssets.Mount()` 按顺序：
 
 1. `res://assets/converted` 存在 → 直接用
-2. 否则读 exe 同级 `converted.pck` → `ProjectSettings.LoadResourcePack()`
+2. 否则读 exe 同级 `extract.pck` → `ProjectSettings.LoadResourcePack()`
 
 | 场合 | 做法 |
 |---|---|
 | 直接跑 `godot --path Editor` | 模型为空，属正常 |
-| 看完整画面 | 把 `Build/converted.pck` 放到 exe 旁边 |
+| 看完整画面 | 把 `extract.pck` 放到 exe 旁边 |
 
 ```
-Build\
+D:\WorldEditor\
 ├── Editor.exe
 ├── Editor.pck
-└── converted.pck
+└── extract.pck
 ```
 
 ## 命令
@@ -38,7 +38,7 @@ godot --headless --path . -- --art-lab-terrain=D:/WorldEditor/Editor/Demo/artlab
 ## 打包
 
 ```bat
-extract.bat     资源 + converted.pck
+extract.bat     资源 + extract.pck
 export.bat      Editor.exe
 ```
 

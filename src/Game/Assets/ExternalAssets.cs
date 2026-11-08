@@ -6,7 +6,7 @@ namespace WorldEdit.Assets;
 
 public static class ExternalAssets
 {
-    public const string PackName = "converted.pck";
+    public const string PackName = "extract.pck";
 
     public static void Mount()
     {
