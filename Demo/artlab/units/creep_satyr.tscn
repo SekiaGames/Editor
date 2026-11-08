@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SatyrTrickster/SatyrTrickster.tscn" id="1_rxsk3"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/satyrhellcaller/satyrhellcaller.tscn" id="2_pa8fo"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Satyr/Satyr.tscn" id="3_hwyae"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/SatyrTrickster/SatyrTrickster.tscn" id="1_rxsk3"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/satyrhellcaller/satyrhellcaller.tscn" id="2_pa8fo"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Satyr/Satyr.tscn" id="3_hwyae"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w36l2"]
 shading_mode = 0

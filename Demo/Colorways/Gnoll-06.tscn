@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Gnoll/Gnoll.tscn" id="1_model"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/Gnoll/Gnoll.tscn" id="1_model"]
 [ext_resource type="Shader" path="res://assets/shaders/war3_model_opaque.gdshader" id="2_shader"]
-[ext_resource type="Texture2D" path="res://assets/converted/Textures/gnoll.png" id="3_detail"]
+[ext_resource type="Texture2D" path="res://extract/Textures/gnoll.png" id="3_detail"]
 
 [sub_resource type="ShaderMaterial" id="Team06"]
 shader = ExtResource("2_shader")

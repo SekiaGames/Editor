@@ -1,7 +1,7 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/human/WaterElemental/WaterElemental.tscn" id="1_7aw8w"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/SeaElemental/SeaElemental.tscn" id="2_n1d77"]
+[ext_resource type="PackedScene" path="res://extract/units/human/WaterElemental/WaterElemental.tscn" id="1_7aw8w"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/SeaElemental/SeaElemental.tscn" id="2_n1d77"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cbwbp"]
 shading_mode = 0

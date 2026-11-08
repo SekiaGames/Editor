@@ -1,10 +1,10 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/DragonSeaTurtle/DragonSeaTurtle.tscn" id="1_dd0lb"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/GiantSeaTurtle/GiantSeaTurtle.tscn" id="2_l1cnk"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/SeaTurtleRange/SeaTurtleRange.tscn" id="3_ugf2r"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/SeaTurtle/SeaTurtle.tscn" id="4_1ahtp"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/GiantSeaTurtleRange/GiantSeaTurtleRange.tscn" id="5_xbkti"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/DragonSeaTurtle/DragonSeaTurtle.tscn" id="1_dd0lb"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/GiantSeaTurtle/GiantSeaTurtle.tscn" id="2_l1cnk"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/SeaTurtleRange/SeaTurtleRange.tscn" id="3_ugf2r"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/SeaTurtle/SeaTurtle.tscn" id="4_1ahtp"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/GiantSeaTurtleRange/GiantSeaTurtleRange.tscn" id="5_xbkti"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gpckx"]
 shading_mode = 0

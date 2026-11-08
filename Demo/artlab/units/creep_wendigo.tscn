@@ -1,7 +1,7 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Wendigo/Wendigo.tscn" id="1_agj8h"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/WendigoShaman/WendigoShaman.tscn" id="2_x8cdk"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Wendigo/Wendigo.tscn" id="1_agj8h"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/WendigoShaman/WendigoShaman.tscn" id="2_x8cdk"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k3s0w"]
 shading_mode = 0

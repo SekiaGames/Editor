@@ -1,10 +1,10 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OgreOneHeadedArmored/OgreOneHeadedArmored.tscn" id="1_0t45p"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OgreLord/OgreLord.tscn" id="2_hp324"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Ogre/Ogre.tscn" id="3_yybeh"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OgreMagi/OgreMagi.tscn" id="4_3pybl"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OgreOneHeaded/OgreOneHeaded.tscn" id="5_gpabg"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/OgreOneHeadedArmored/OgreOneHeadedArmored.tscn" id="1_0t45p"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/OgreLord/OgreLord.tscn" id="2_hp324"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Ogre/Ogre.tscn" id="3_yybeh"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/OgreMagi/OgreMagi.tscn" id="4_3pybl"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/OgreOneHeaded/OgreOneHeaded.tscn" id="5_gpabg"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aju61"]
 shading_mode = 0

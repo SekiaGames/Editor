@@ -10,7 +10,7 @@ public static class ExternalAssets
 
     public static void Mount()
     {
-        if (DirAccess.DirExistsAbsolute("res://assets/converted"))
+        if (DirAccess.DirExistsAbsolute("res://extract"))
         {
             return;
         }

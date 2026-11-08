@@ -1,7 +1,7 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/IceTrollShadowPriest/IceTrollShadowPriest.tscn" id="1_o2ayv"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/IceTroll/IceTroll.tscn" id="2_5ytwy"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/IceTrollShadowPriest/IceTrollShadowPriest.tscn" id="1_o2ayv"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/IceTroll/IceTroll.tscn" id="2_5ytwy"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o57cd"]
 shading_mode = 0

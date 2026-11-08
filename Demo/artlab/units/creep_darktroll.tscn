@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/DarkTroll/DarkTroll.tscn" id="1_dr0q0"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/DarkTrollShadowPriest/DarkTrollShadowPriest.tscn" id="2_rmn5j"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/DarkTrollTrapper/DarkTrollTrapper.tscn" id="3_i3vir"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/DarkTroll/DarkTroll.tscn" id="1_dr0q0"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/DarkTrollShadowPriest/DarkTrollShadowPriest.tscn" id="2_rmn5j"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/DarkTrollTrapper/DarkTrollTrapper.tscn" id="3_i3vir"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l7mg4"]
 shading_mode = 0

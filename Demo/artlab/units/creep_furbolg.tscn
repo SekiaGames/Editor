@@ -1,10 +1,10 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FurbolgElder/FurbolgElder.tscn" id="1_hwb84"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FurbolgTracker/FurbolgTracker.tscn" id="2_uxm81"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FurbolgShaman/FurbolgShaman.tscn" id="3_rkunx"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Furbolg/Furbolg.tscn" id="4_spvfw"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FurbolgPanda/FurbolgPanda.tscn" id="5_tadfj"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/FurbolgElder/FurbolgElder.tscn" id="1_hwb84"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/FurbolgTracker/FurbolgTracker.tscn" id="2_uxm81"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/FurbolgShaman/FurbolgShaman.tscn" id="3_rkunx"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Furbolg/Furbolg.tscn" id="4_spvfw"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/FurbolgPanda/FurbolgPanda.tscn" id="5_tadfj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u474u"]
 shading_mode = 0

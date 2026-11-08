@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/tuskarRanged/tuskarRanged.tscn" id="1_l1l5c"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/tuskarLord/tuskarLord.tscn" id="2_cjsf8"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/tuskar/tuskar.tscn" id="3_ayo3f"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/tuskarRanged/tuskarRanged.tscn" id="1_l1l5c"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/tuskarLord/tuskarLord.tscn" id="2_cjsf8"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/tuskar/tuskar.tscn" id="3_ayo3f"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kqmoh"]
 shading_mode = 0

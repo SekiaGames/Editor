@@ -8,7 +8,7 @@ namespace WorldEdit.Assets.Generated;
 
 public static class War3Tables
 {
-    private const string Root = "res://assets/converted/Tables/";
+    private const string Root = "res://extract/Tables/";
 
     private static readonly Dictionary<string, SlkTable> Cache = new(StringComparer.OrdinalIgnoreCase);
 

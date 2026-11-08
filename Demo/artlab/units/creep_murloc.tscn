@@ -1,10 +1,10 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/MurlocFlesheater/MurlocFlesheater.tscn" id="1_ciyqv"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/MurlocMutant/MurlocMutant.tscn" id="2_nncw5"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Murloc/Murloc.tscn" id="3_1ix4t"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/MurlocNightcrawler/MurlocNightcrawler.tscn" id="4_2cm2i"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/MurlocWarrior/MurlocWarrior.tscn" id="5_2be87"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/MurlocFlesheater/MurlocFlesheater.tscn" id="1_ciyqv"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/MurlocMutant/MurlocMutant.tscn" id="2_nncw5"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Murloc/Murloc.tscn" id="3_1ix4t"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/MurlocNightcrawler/MurlocNightcrawler.tscn" id="4_2cm2i"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/MurlocWarrior/MurlocWarrior.tscn" id="5_2be87"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dfg7n"]
 shading_mode = 0

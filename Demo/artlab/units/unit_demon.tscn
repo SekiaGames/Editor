@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/demon/DoomGuard/DoomGuard.tscn" id="1_5dbry"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/demon/felhound/felhound.tscn" id="2_j3go8"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/demon/Infernal/Infernal.tscn" id="3_o1855"]
+[ext_resource type="PackedScene" path="res://extract/units/demon/DoomGuard/DoomGuard.tscn" id="1_5dbry"]
+[ext_resource type="PackedScene" path="res://extract/units/demon/felhound/felhound.tscn" id="2_j3go8"]
+[ext_resource type="PackedScene" path="res://extract/units/demon/Infernal/Infernal.tscn" id="3_o1855"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vu2oe"]
 shading_mode = 0

@@ -1,7 +1,7 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/demon/Demoness/Demoness.tscn" id="1_iyrx7"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/demon/DemonessBlue/DemonessBlue.tscn" id="2_hne6v"]
+[ext_resource type="PackedScene" path="res://extract/units/demon/Demoness/Demoness.tscn" id="1_iyrx7"]
+[ext_resource type="PackedScene" path="res://extract/units/demon/DemonessBlue/DemonessBlue.tscn" id="2_hne6v"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vyspa"]
 shading_mode = 0

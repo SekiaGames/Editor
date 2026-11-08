@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/FirePandarenBrewmaster/FirePandarenBrewmaster.tscn" id="1_j4uh4"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/StormPandarenBrewmaster/StormPandarenBrewmaster.tscn" id="2_3pwyr"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/EarthPandarenBrewmaster/EarthPandarenBrewmaster.tscn" id="3_11b1r"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/FirePandarenBrewmaster/FirePandarenBrewmaster.tscn" id="1_j4uh4"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/StormPandarenBrewmaster/StormPandarenBrewmaster.tscn" id="2_3pwyr"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/EarthPandarenBrewmaster/EarthPandarenBrewmaster.tscn" id="3_11b1r"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k5vjn"]
 shading_mode = 0

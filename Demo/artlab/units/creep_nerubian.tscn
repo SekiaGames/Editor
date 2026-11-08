@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Nerubian/Nerubian.tscn" id="1_q4w5m"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/NerubianSpiderLord/NerubianSpiderLord.tscn" id="2_45mju"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/NerubianQueen/NerubianQueen.tscn" id="3_k51p0"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Nerubian/Nerubian.tscn" id="1_q4w5m"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/NerubianSpiderLord/NerubianSpiderLord.tscn" id="2_45mju"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/NerubianQueen/NerubianQueen.tscn" id="3_k51p0"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hrjjt"]
 shading_mode = 0

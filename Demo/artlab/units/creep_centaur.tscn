@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/CentaurArcher/CentaurArcher.tscn" id="1_ittv7"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Centaur/Centaur.tscn" id="2_c046g"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/CentaurKhan/CentaurKhan.tscn" id="3_88i0t"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/CentaurArcher/CentaurArcher.tscn" id="1_ittv7"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Centaur/Centaur.tscn" id="2_c046g"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/CentaurKhan/CentaurKhan.tscn" id="3_88i0t"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_44xh4"]
 shading_mode = 0

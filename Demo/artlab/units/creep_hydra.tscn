@@ -1,6 +1,6 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Hydra/Hydra.tscn" id="1_2qu1h"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/Hydra/Hydra.tscn" id="1_2qu1h"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qqiqj"]
 shading_mode = 0

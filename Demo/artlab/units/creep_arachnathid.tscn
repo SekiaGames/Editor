@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Archnathid/Archnathid.tscn" id="1_8eut1"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/ArchnathidGreen/ArchnathidGreen.tscn" id="2_h6q0r"]
-[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Archnathidpurple/Archnathidpurple.tscn" id="3_5rn16"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/Archnathid/Archnathid.tscn" id="1_8eut1"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/ArchnathidGreen/ArchnathidGreen.tscn" id="2_h6q0r"]
+[ext_resource type="PackedScene" path="res://extract/Units/Creeps/Archnathidpurple/Archnathidpurple.tscn" id="3_5rn16"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_coyka"]
 shading_mode = 0

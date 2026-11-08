@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/DireWolf/DireWolf.tscn" id="1_sumxc"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/TimberWolf/TimberWolf.tscn" id="2_mmwxc"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/WhiteWolf/WhiteWolf.tscn" id="3_owpls"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/DireWolf/DireWolf.tscn" id="1_sumxc"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/TimberWolf/TimberWolf.tscn" id="2_mmwxc"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/WhiteWolf/WhiteWolf.tscn" id="3_owpls"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_unknc"]
 shading_mode = 0

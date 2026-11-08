@@ -10,7 +10,7 @@ public static class War3Assets
 
     public static string GameRoot { get; private set; } = "D:/War3_1.27a";
 
-    public const string ConvertedRoot = "res://assets/converted/";
+    public const string ConvertedRoot = "res://extract/";
 
     private static readonly string[] ArchiveNames =
     {

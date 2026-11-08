@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Harpy/Harpy.tscn" id="1_6yrhb"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/HarpyWitch/HarpyWitch.tscn" id="2_ns6a2"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/HarpyQueen/HarpyQueen.tscn" id="3_ef2ra"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Harpy/Harpy.tscn" id="1_6yrhb"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/HarpyWitch/HarpyWitch.tscn" id="2_ns6a2"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/HarpyQueen/HarpyQueen.tscn" id="3_ef2ra"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tpcxy"]
 shading_mode = 0

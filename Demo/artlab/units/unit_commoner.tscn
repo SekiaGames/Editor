@@ -1,10 +1,10 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/critters/VillagerMan/VillagerMan.tscn" id="1_w13yh"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/critters/VillagerKid1/VillagerKid1.tscn" id="2_owjff"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/critters/VillagerMan1/VillagerMan1.tscn" id="3_twvah"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/critters/VillagerKid/VillagerKid.tscn" id="4_kjh4g"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/critters/VillagerWoman/VillagerWoman.tscn" id="5_a8apf"]
+[ext_resource type="PackedScene" path="res://extract/units/critters/VillagerMan/VillagerMan.tscn" id="1_w13yh"]
+[ext_resource type="PackedScene" path="res://extract/units/critters/VillagerKid1/VillagerKid1.tscn" id="2_owjff"]
+[ext_resource type="PackedScene" path="res://extract/units/critters/VillagerMan1/VillagerMan1.tscn" id="3_twvah"]
+[ext_resource type="PackedScene" path="res://extract/units/critters/VillagerKid/VillagerKid.tscn" id="4_kjh4g"]
+[ext_resource type="PackedScene" path="res://extract/units/critters/VillagerWoman/VillagerWoman.tscn" id="5_a8apf"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2wnj2"]
 shading_mode = 0

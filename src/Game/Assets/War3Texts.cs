@@ -7,7 +7,7 @@ namespace WorldEdit.Assets.Generated;
 
 public static class War3Texts
 {
-    private const string Root = "res://assets/converted/Texts/";
+    private const string Root = "res://extract/Texts/";
 
     private static readonly Dictionary<string, IReadOnlyDictionary<string, string>> Cache =
         new(StringComparer.OrdinalIgnoreCase);

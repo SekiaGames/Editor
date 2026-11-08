@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Gnoll/Gnoll.tscn" id="1_jvtgp"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/GnollOverseer/GnollOverseer.tscn" id="2_6o4bx"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/GnollWarden/GnollWarden.tscn" id="3_vfudg"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Gnoll/Gnoll.tscn" id="1_jvtgp"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/GnollOverseer/GnollOverseer.tscn" id="2_6o4bx"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/GnollWarden/GnollWarden.tscn" id="3_vfudg"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p60e4"]
 shading_mode = 0

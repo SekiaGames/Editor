@@ -8,7 +8,7 @@
 
 启动时 `ExternalAssets.Mount()` 按顺序：
 
-1. `res://assets/converted` 存在 → 直接用
+1. `res://extract` 存在 → 直接用
 2. 否则读 exe 同级 `extract.pck` → `ProjectSettings.LoadResourcePack()`
 
 | 场合 | 做法 |

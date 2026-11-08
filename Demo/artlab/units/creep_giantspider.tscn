@@ -1,9 +1,9 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SpiderBlue/SpiderBlue.tscn" id="1_tyl25"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Spider/Spider.tscn" id="2_dxjtr"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SpiderBlack/SpiderBlack.tscn" id="3_1goyy"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SpiderGreen/SpiderGreen.tscn" id="4_ta0d8"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/SpiderBlue/SpiderBlue.tscn" id="1_tyl25"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/Spider/Spider.tscn" id="2_dxjtr"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/SpiderBlack/SpiderBlack.tscn" id="3_1goyy"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/SpiderGreen/SpiderGreen.tscn" id="4_ta0d8"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kcdrd"]
 shading_mode = 0

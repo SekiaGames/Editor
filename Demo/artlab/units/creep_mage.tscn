@@ -1,7 +1,7 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/HumanMage/HumanMage.tscn" id="1_ox1q2"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/BanditMage/BanditMage.tscn" id="2_44b6d"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/HumanMage/HumanMage.tscn" id="1_ox1q2"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/BanditMage/BanditMage.tscn" id="2_44b6d"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3evjb"]
 shading_mode = 0

@@ -1,8 +1,8 @@
 [gd_scene format=3]
 
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ForestTrollShadowPriest/ForestTrollShadowPriest.tscn" id="1_sqjc7"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ForestTroll/ForestTroll.tscn" id="2_21ial"]
-[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ForestTrollTrapper/ForestTrollTrapper.tscn" id="3_xk7vi"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/ForestTrollShadowPriest/ForestTrollShadowPriest.tscn" id="1_sqjc7"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/ForestTroll/ForestTroll.tscn" id="2_21ial"]
+[ext_resource type="PackedScene" path="res://extract/units/creeps/ForestTrollTrapper/ForestTrollTrapper.tscn" id="3_xk7vi"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2fcv2"]
 shading_mode = 0

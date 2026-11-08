@@ -151,4 +151,4 @@ dotnet build Godot/WorldEdit.csproj
 - 模型源 `.tscn` 自带 `AnimationPlayer autoplay = Stand`，场景里单位会一直做待机动作。看静态姿态可临时把 autoplay 清空。
 - **路径大小写**：`ModelLibrary.Find` 必须返回磁盘真实大小写。Windows 文件系统不区分大小写，
   早期版本按 slk 的小写路径返回，写进 `.tscn` 后 Godot 严格匹配就报
-  `referenced non-existent resource at: res://assets/converted/units/creeps/...`（整组模型消失）。
+  `referenced non-existent resource at: res://extract/units/creeps/...`（整组模型消失）。
