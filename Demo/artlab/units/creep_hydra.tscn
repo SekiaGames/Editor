@@ -1,0 +1,65 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Hydra/Hydra.tscn" id="1_2qu1h"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qqiqj"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_fyicc"]
+size = Vector2(3040, 380)
+
+[node name="creep_hydra" type="Node3D" unique_id=32420890]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=532328277]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_qqiqj")
+mesh = SubResource("PlaneMesh_fyicc")
+
+[node name="nahy" type="Node3D" parent="." unique_id=1286625442 instance=ExtResource("1_2qu1h")]
+transform = Transform3D(-1.55, 0, -1.355053e-07, 0, 1.55, 0, 1.355053e-07, 0, -1.55, -190, 0, 190)
+
+[node name="label_nahy" type="Label3D" parent="." unique_id=1678092456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nahy  hydra"
+font_size = 40
+
+[node name="nehy" type="Node3D" parent="." unique_id=1017730861 instance=ExtResource("1_2qu1h")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -570, 0, 190)
+
+[node name="label_nehy" type="Label3D" parent="." unique_id=1803334928]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nehy  hydra"
+font_size = 40
+
+[node name="nhyd" type="Node3D" parent="." unique_id=211771539 instance=ExtResource("1_2qu1h")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -950, 0, 190)
+
+[node name="label_nhyd" type="Label3D" parent="." unique_id=507632655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nhyd  hydra"
+font_size = 40
+
+[node name="nhyh" type="Node3D" parent="." unique_id=749539913 instance=ExtResource("1_2qu1h")]
+transform = Transform3D(-0.75, 0, -6.556708e-08, 0, 0.75, 0, 6.556708e-08, 0, -0.75, -1330, 0, 190)
+
+[node name="label_nhyh" type="Label3D" parent="." unique_id=1812498526]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nhyh  hydra"
+font_size = 40

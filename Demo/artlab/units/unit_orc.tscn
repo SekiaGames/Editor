@@ -1,0 +1,760 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/HeroChaosBladeMaster/HeroChaosBladeMaster.tscn" id="1_8f3g5"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/PandarenBrewmaster/PandarenBrewmaster.tscn" id="2_dvgg0"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/HeroBladeMaster/HeroBladeMaster.tscn" id="3_c0vkx"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/HeroTaurenChieftainCIN/HeroTaurenChieftainCIN.tscn" id="4_noibc"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/HeroFarSeer/HeroFarSeer.tscn" id="5_8hmer"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/OrcWarlockGuldan/OrcWarlockGuldan.tscn" id="6_otxnr"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/Hellscream/Hellscream.tscn" id="7_sgix6"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/ChaosHellscream/ChaosHellscream.tscn" id="8_dwvn2"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Other/Rexxar/Rexxar.tscn" id="9_jlo2c"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/HeroShadowHunter/HeroShadowHunter.tscn" id="10_maqif"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/HeroTaurenChieftain/HeroTaurenChieftain.tscn" id="11_cvpq7"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/Thrall/Thrall.tscn" id="12_p3rvi"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/ChaosGrunt/ChaosGrunt.tscn" id="13_3utij"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/ChaosWolfRider/ChaosWolfRider.tscn" id="14_v7kx4"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/ChaosWarlock/ChaosWarlock.tscn" id="15_5hkhr"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/ChaosKotoBeast/ChaosKotoBeast.tscn" id="16_4cvbi"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/ChaosPeon/ChaosPeon.tscn" id="17_htq2v"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/GoblinSapper/GoblinSapper.tscn" id="18_mus63"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/IronGolem/IronGolem.tscn" id="19_wo13w"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/GrizzlyBear/GrizzlyBear.tscn" id="20_7h6p8"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ChaosWarlockGreen/ChaosWarlockGreen.tscn" id="21_dgdhn"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/WatcherWard/WatcherWard.tscn" id="22_t6qxo"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OrcishTransportShip/OrcishTransportShip.tscn" id="23_84jh6"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/catapult/catapult.tscn" id="24_is7gh"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OrcishDestroyerShip/OrcishDestroyerShip.tscn" id="25_tri4g"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OrcWarlockRed/OrcWarlockRed.tscn" id="26_ex11s"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/WitchDoctor/WitchDoctor.tscn" id="27_se3vp"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/SentryWard/SentryWard.tscn" id="28_vo20v"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/Grunt/Grunt.tscn" id="29_nc3sp"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/HeadHunter/HeadHunter.tscn" id="30_8dgq7"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/HealingWard/HealingWard.tscn" id="31_j7731"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Critters/OrcJuggernaught/OrcJuggernaught.tscn" id="32_f3q2g"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/KotoBeast/KotoBeast.tscn" id="33_wpg8w"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/ChaosWarlord/ChaosWarlord.tscn" id="34_wrfei"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/WolfRider/WolfRider.tscn" id="35_uhtst"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/KotoBeastNoRider/KotoBeastNoRider.tscn" id="36_fn2oj"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/Peon/Peon.tscn" id="37_15by1"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/Shaman/Shaman.tscn" id="38_gtb02"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/SerpentWard/SerpentWard.tscn" id="39_hw8vh"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/spiritwalker/spiritwalker.tscn" id="40_ke7xo"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/Spiritwolf/Spiritwolf.tscn" id="41_0ld6s"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/SpiritWyvern/SpiritWyvern.tscn" id="42_bhvns"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/Tauren/Tauren.tscn" id="43_b2wum"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/BatTroll/BatTroll.tscn" id="44_iqpql"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/StasisTotem/StasisTotem.tscn" id="45_r6rdb"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/RiderlessWyvern/RiderlessWyvern.tscn" id="46_40pkx"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/WyvernRider/WyvernRider.tscn" id="47_8n0cy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ah0fl"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_a8d3p"]
+size = Vector2(3040, 3420)
+
+[node name="unit_orc" type="Node3D" unique_id=338837182]
+metadata/map_width = 8
+metadata/map_height = 9
+metadata/view_dist = 4617.0
+metadata/view_target = Vector3(-1520, 0, 1710)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=707409123]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 1710)
+material_override = SubResource("StandardMaterial3D_ah0fl")
+mesh = SubResource("PlaneMesh_a8d3p")
+
+[node name="Nbbc" type="Node3D" parent="." unique_id=1824498677 instance=ExtResource("1_8f3g5")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 190)
+
+[node name="label_Nbbc" type="Label3D" parent="." unique_id=1981512706]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Nbbc  OHero04"
+font_size = 40
+
+[node name="Nsjs" type="Node3D" parent="." unique_id=1918792339 instance=ExtResource("2_dvgg0")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_Nsjs" type="Label3D" parent="." unique_id=767662465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Nsjs"
+font_size = 40
+
+[node name="Obla" type="Node3D" parent="." unique_id=1621960079 instance=ExtResource("3_c0vkx")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 190)
+
+[node name="label_Obla" type="Label3D" parent="." unique_id=644951621]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Obla  OHero01"
+font_size = 40
+
+[node name="Ocb2" type="Node3D" parent="." unique_id=756643678 instance=ExtResource("4_noibc")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 190)
+
+[node name="label_Ocb2" type="Label3D" parent="." unique_id=1682287959]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ocb2"
+font_size = 40
+
+[node name="Ocbh" type="Node3D" parent="." unique_id=670673228 instance=ExtResource("4_noibc")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 190)
+
+[node name="label_Ocbh" type="Label3D" parent="." unique_id=920057868]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ocbh"
+font_size = 40
+
+[node name="Odrt" type="Node3D" parent="." unique_id=426155296 instance=ExtResource("5_8hmer")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 190)
+
+[node name="label_Odrt" type="Label3D" parent="." unique_id=1777741084]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Odrt"
+font_size = 40
+
+[node name="Ofar" type="Node3D" parent="." unique_id=1511949603 instance=ExtResource("5_8hmer")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 190)
+
+[node name="label_Ofar" type="Label3D" parent="." unique_id=1982665181]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ofar  OHero02"
+font_size = 40
+
+[node name="Ogld" type="Node3D" parent="." unique_id=1245242271 instance=ExtResource("6_otxnr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 190)
+
+[node name="label_Ogld" type="Label3D" parent="." unique_id=2135891372]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ogld"
+font_size = 40
+
+[node name="Ogrh" type="Node3D" parent="." unique_id=1139785389 instance=ExtResource("7_sgix6")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 570)
+
+[node name="label_Ogrh" type="Label3D" parent="." unique_id=1384684045]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ogrh"
+font_size = 40
+
+[node name="Opgh" type="Node3D" parent="." unique_id=1776269877 instance=ExtResource("8_dwvn2")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -570, 0, 570)
+
+[node name="label_Opgh" type="Label3D" parent="." unique_id=300301065]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Opgh"
+font_size = 40
+
+[node name="Orex" type="Node3D" parent="." unique_id=1667869954 instance=ExtResource("9_jlo2c")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 570)
+
+[node name="label_Orex" type="Label3D" parent="." unique_id=1954501386]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Orex"
+font_size = 40
+
+[node name="Orkn" type="Node3D" parent="." unique_id=616634809 instance=ExtResource("10_maqif")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 570)
+
+[node name="label_Orkn" type="Label3D" parent="." unique_id=233312539]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Orkn"
+font_size = 40
+
+[node name="Osam" type="Node3D" parent="." unique_id=1040142389 instance=ExtResource("3_c0vkx")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 570)
+
+[node name="label_Osam" type="Label3D" parent="." unique_id=659863579]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Osam"
+font_size = 40
+
+[node name="Oshd" type="Node3D" parent="." unique_id=1706085385 instance=ExtResource("10_maqif")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 570)
+
+[node name="label_Oshd" type="Label3D" parent="." unique_id=1650357701]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Oshd  OHero07"
+font_size = 40
+
+[node name="Otcc" type="Node3D" parent="." unique_id=486515265 instance=ExtResource("4_noibc")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 570)
+
+[node name="label_Otcc" type="Label3D" parent="." unique_id=255624240]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Otcc"
+font_size = 40
+
+[node name="Otch" type="Node3D" parent="." unique_id=455621919 instance=ExtResource("11_cvpq7")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -2850, 0, 570)
+
+[node name="label_Otch" type="Label3D" parent="." unique_id=1567165996]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Otch  OHero03"
+font_size = 40
+
+[node name="Othr" type="Node3D" parent="." unique_id=1614158494 instance=ExtResource("12_p3rvi")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 950)
+
+[node name="label_Othr" type="Label3D" parent="." unique_id=914589359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Othr"
+font_size = 40
+
+[node name="nchg" type="Node3D" parent="." unique_id=2074564919 instance=ExtResource("13_3utij")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -570, 0, 950)
+
+[node name="label_nchg" type="Label3D" parent="." unique_id=770771443]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nchg  OUnit20"
+font_size = 40
+
+[node name="nchr" type="Node3D" parent="." unique_id=778921571 instance=ExtResource("14_v7kx4")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -950, 0, 950)
+
+[node name="label_nchr" type="Label3D" parent="." unique_id=784043787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nchr  OUnit21"
+font_size = 40
+
+[node name="nchw" type="Node3D" parent="." unique_id=498955891 instance=ExtResource("15_5hkhr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 950)
+
+[node name="label_nchw" type="Label3D" parent="." unique_id=777988151]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nchw  OUnit19"
+font_size = 40
+
+[node name="nckb" type="Node3D" parent="." unique_id=845765880 instance=ExtResource("16_4cvbi")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 950)
+
+[node name="label_nckb" type="Label3D" parent="." unique_id=709623720]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nckb  OUnit22"
+font_size = 40
+
+[node name="ncpn" type="Node3D" parent="." unique_id=791108450 instance=ExtResource("17_htq2v")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 950)
+
+[node name="label_ncpn" type="Label3D" parent="." unique_id=1580784465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ncpn  OUnit23"
+font_size = 40
+
+[node name="negz" type="Node3D" parent="." unique_id=848348099 instance=ExtResource("18_mus63")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 950)
+
+[node name="label_negz" type="Label3D" parent="." unique_id=1793337523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "negz"
+font_size = 40
+
+[node name="ngbl" type="Node3D" parent="." unique_id=1329148404 instance=ExtResource("19_wo13w")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 950)
+
+[node name="label_ngbl" type="Label3D" parent="." unique_id=1440490237]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ngbl  goblin"
+font_size = 40
+
+[node name="nmsh" type="Node3D" parent="." unique_id=2109450313 instance=ExtResource("20_7h6p8")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 1330)
+
+[node name="label_nmsh" type="Label3D" parent="." unique_id=1565931730]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmsh"
+font_size = 40
+
+[node name="nw2w" type="Node3D" parent="." unique_id=1630127066 instance=ExtResource("21_dgdhn")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 1330)
+
+[node name="label_nw2w" type="Label3D" parent="." unique_id=1815211707]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nw2w  OUnit18"
+font_size = 40
+
+[node name="nwad" type="Node3D" parent="." unique_id=1898140084 instance=ExtResource("22_t6qxo")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 1330)
+
+[node name="label_nwad" type="Label3D" parent="." unique_id=1147232585]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nwad  OUnit12"
+font_size = 40
+
+[node name="obot" type="Node3D" parent="." unique_id=547929667 instance=ExtResource("23_84jh6")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 1330)
+
+[node name="label_obot" type="Label3D" parent="." unique_id=1676092941]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "obot  boat"
+font_size = 40
+
+[node name="ocat" type="Node3D" parent="." unique_id=1967540960 instance=ExtResource("24_is7gh")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 1330)
+
+[node name="label_ocat" type="Label3D" parent="." unique_id=398819603]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ocat  OUnit06"
+font_size = 40
+
+[node name="odes" type="Node3D" parent="." unique_id=1914370144 instance=ExtResource("25_tri4g")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 1330)
+
+[node name="label_odes" type="Label3D" parent="." unique_id=1154137616]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "odes  boat"
+font_size = 40
+
+[node name="odkt" type="Node3D" parent="." unique_id=656338332 instance=ExtResource("26_ex11s")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -190, 0, 1710)
+
+[node name="label_odkt" type="Label3D" parent="." unique_id=1159176816]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "odkt"
+font_size = 40
+
+[node name="odoc" type="Node3D" parent="." unique_id=589562202 instance=ExtResource("27_se3vp")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 1710)
+
+[node name="label_odoc" type="Label3D" parent="." unique_id=1565288969]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "odoc  OUnit10"
+font_size = 40
+
+[node name="oeye" type="Node3D" parent="." unique_id=1757664653 instance=ExtResource("28_vo20v")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 1710)
+
+[node name="label_oeye" type="Label3D" parent="." unique_id=700450178]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "oeye  OUnit12"
+font_size = 40
+
+[node name="ogrk" type="Node3D" parent="." unique_id=2008368574 instance=ExtResource("29_nc3sp")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -1330, 0, 1710)
+
+[node name="label_ogrk" type="Label3D" parent="." unique_id=143527764]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ogrk"
+font_size = 40
+
+[node name="ogru" type="Node3D" parent="." unique_id=1005443059 instance=ExtResource("29_nc3sp")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -1710, 0, 1710)
+
+[node name="label_ogru" type="Label3D" parent="." unique_id=1852549248]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ogru  OUnit02"
+font_size = 40
+
+[node name="ohun" type="Node3D" parent="." unique_id=761636488 instance=ExtResource("30_8dgq7")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 1710)
+
+[node name="label_ohun" type="Label3D" parent="." unique_id=307020177]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ohun  OUnit05"
+font_size = 40
+
+[node name="ohwd" type="Node3D" parent="." unique_id=272250501 instance=ExtResource("31_j7731")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 1710)
+
+[node name="label_ohwd" type="Label3D" parent="." unique_id=135704590]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ohwd  OUnit17"
+font_size = 40
+
+[node name="ojgn" type="Node3D" parent="." unique_id=1503331836 instance=ExtResource("32_f3q2g")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 1710)
+
+[node name="label_ojgn" type="Label3D" parent="." unique_id=5730075]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ojgn  boat"
+font_size = 40
+
+[node name="okod" type="Node3D" parent="." unique_id=1269938183 instance=ExtResource("33_wpg8w")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 2090)
+
+[node name="label_okod" type="Label3D" parent="." unique_id=1622349288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "okod  OUnit07"
+font_size = 40
+
+[node name="omtg" type="Node3D" parent="." unique_id=873699810 instance=ExtResource("34_wrfei")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 2090)
+
+[node name="label_omtg" type="Label3D" parent="." unique_id=1270803240]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "omtg"
+font_size = 40
+
+[node name="onzg" type="Node3D" parent="." unique_id=1486401521 instance=ExtResource("35_uhtst")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 2090)
+
+[node name="label_onzg" type="Label3D" parent="." unique_id=1093467318]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "onzg"
+font_size = 40
+
+[node name="oosc" type="Node3D" parent="." unique_id=413067932 instance=ExtResource("36_fn2oj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 2090)
+
+[node name="label_oosc" type="Label3D" parent="." unique_id=894213117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "oosc"
+font_size = 40
+
+[node name="opeo" type="Node3D" parent="." unique_id=1610350909 instance=ExtResource("37_15by1")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 2090)
+
+[node name="label_opeo" type="Label3D" parent="." unique_id=207754799]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "opeo  OUnit01"
+font_size = 40
+
+[node name="orai" type="Node3D" parent="." unique_id=535455351 instance=ExtResource("35_uhtst")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 2090)
+
+[node name="label_orai" type="Label3D" parent="." unique_id=989640794]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "orai  OUnit03"
+font_size = 40
+
+[node name="oshm" type="Node3D" parent="." unique_id=248140213 instance=ExtResource("38_gtb02")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 2090)
+
+[node name="label_oshm" type="Label3D" parent="." unique_id=979656246]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "oshm  OUnit11"
+font_size = 40
+
+[node name="osp1" type="Node3D" parent="." unique_id=1179154548 instance=ExtResource("39_hw8vh")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 2470)
+
+[node name="label_osp1" type="Label3D" parent="." unique_id=193264765]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "osp1  OUnit21"
+font_size = 40
+
+[node name="osp2" type="Node3D" parent="." unique_id=476075602 instance=ExtResource("39_hw8vh")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 2470)
+
+[node name="label_osp2" type="Label3D" parent="." unique_id=730267463]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "osp2  OUnit22"
+font_size = 40
+
+[node name="osp3" type="Node3D" parent="." unique_id=1128220495 instance=ExtResource("39_hw8vh")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 2470)
+
+[node name="label_osp3" type="Label3D" parent="." unique_id=782240294]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "osp3  OUnit23"
+font_size = 40
+
+[node name="osp4" type="Node3D" parent="." unique_id=632410162 instance=ExtResource("39_hw8vh")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 2470)
+
+[node name="label_osp4" type="Label3D" parent="." unique_id=647847657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "osp4  OUnit23"
+font_size = 40
+
+[node name="ospm" type="Node3D" parent="." unique_id=1940397187 instance=ExtResource("40_ke7xo")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 2470)
+
+[node name="label_ospm" type="Label3D" parent="." unique_id=638958218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ospm  OUnit25"
+font_size = 40
+
+[node name="ospw" type="Node3D" parent="." unique_id=1372798514 instance=ExtResource("40_ke7xo")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 2470)
+
+[node name="label_ospw" type="Label3D" parent="." unique_id=1032798851]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ospw  OUnit24"
+font_size = 40
+
+[node name="osw1" type="Node3D" parent="." unique_id=976180601 instance=ExtResource("41_0ld6s")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -2470, 0, 2470)
+
+[node name="label_osw1" type="Label3D" parent="." unique_id=996439668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "osw1  OUnit14"
+font_size = 40
+
+[node name="osw2" type="Node3D" parent="." unique_id=1461027121 instance=ExtResource("41_0ld6s")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -2850, 0, 2470)
+
+[node name="label_osw2" type="Label3D" parent="." unique_id=797645087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "osw2  OUnit15"
+font_size = 40
+
+[node name="osw3" type="Node3D" parent="." unique_id=123384491 instance=ExtResource("41_0ld6s")]
+transform = Transform3D(-1.3, 0, -1.13649605e-07, 0, 1.3, 0, 1.13649605e-07, 0, -1.3, -190, 0, 2850)
+
+[node name="label_osw3" type="Label3D" parent="." unique_id=1578880861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 2980)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "osw3  OUnit16"
+font_size = 40
+
+[node name="oswy" type="Node3D" parent="." unique_id=1841816528 instance=ExtResource("42_bhvns")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 2850)
+
+[node name="label_oswy" type="Label3D" parent="." unique_id=1009224523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 2980)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "oswy"
+font_size = 40
+
+[node name="otau" type="Node3D" parent="." unique_id=1905930329 instance=ExtResource("43_b2wum")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -950, 0, 2850)
+
+[node name="label_otau" type="Label3D" parent="." unique_id=1115619188]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 2980)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "otau  OUnit04"
+font_size = 40
+
+[node name="otbk" type="Node3D" parent="." unique_id=1698591063 instance=ExtResource("30_8dgq7")]
+transform = Transform3D(-1.15, 0, -1.0053619e-07, 0, 1.15, 0, 1.0053619e-07, 0, -1.15, -1330, 0, 2850)
+
+[node name="label_otbk" type="Label3D" parent="." unique_id=2002178956]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 2980)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "otbk  OUnit26"
+font_size = 40
+
+[node name="otbr" type="Node3D" parent="." unique_id=679259001 instance=ExtResource("44_iqpql")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 2850)
+
+[node name="label_otbr" type="Label3D" parent="." unique_id=1514707618]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 2980)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "otbr  OUnit09"
+font_size = 40
+
+[node name="otot" type="Node3D" parent="." unique_id=1763136310 instance=ExtResource("45_r6rdb")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 2850)
+
+[node name="label_otot" type="Label3D" parent="." unique_id=485132152]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 2980)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "otot  OUnit13"
+font_size = 40
+
+[node name="ovlj" type="Node3D" parent="." unique_id=1350638779 instance=ExtResource("27_se3vp")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 2850)
+
+[node name="label_ovlj" type="Label3D" parent="." unique_id=2051384252]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 2980)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ovlj"
+font_size = 40
+
+[node name="owar" type="Node3D" parent="." unique_id=1250947313 instance=ExtResource("34_wrfei")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 3230)
+
+[node name="label_owar" type="Label3D" parent="." unique_id=184513107]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 3360)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "owar"
+font_size = 40
+
+[node name="ownr" type="Node3D" parent="." unique_id=2079375743 instance=ExtResource("46_40pkx")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 3230)
+
+[node name="label_ownr" type="Label3D" parent="." unique_id=201065077]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 3360)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ownr"
+font_size = 40
+
+[node name="owyv" type="Node3D" parent="." unique_id=1286074035 instance=ExtResource("47_8n0cy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 3230)
+
+[node name="label_owyv" type="Label3D" parent="." unique_id=15130358]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 3360)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "owyv  OUnit08"
+font_size = 40

@@ -1,0 +1,89 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Bristleback/Bristleback.tscn" id="1_rqae2"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/RazorMane/RazorMane.tscn" id="2_gbbt1"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/RazorManeChief/RazorManeChief.tscn" id="3_cqiuu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7smk0"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_7re2g"]
+size = Vector2(3040, 380)
+
+[node name="creep_razormane" type="Node3D" unique_id=1076538079]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1885135292]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_7smk0")
+mesh = SubResource("PlaneMesh_7re2g")
+
+[node name="nqbh" type="Node3D" parent="." unique_id=1456140612 instance=ExtResource("1_rqae2")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -190, 0, 190)
+
+[node name="label_nqbh" type="Label3D" parent="." unique_id=994663274]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nqbh  razormane"
+font_size = 40
+
+[node name="nrzb" type="Node3D" parent="." unique_id=849983869 instance=ExtResource("2_gbbt1")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -570, 0, 190)
+
+[node name="label_nrzb" type="Label3D" parent="." unique_id=697480050]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nrzb  razormane"
+font_size = 40
+
+[node name="nrzg" type="Node3D" parent="." unique_id=597315343 instance=ExtResource("3_cqiuu")]
+transform = Transform3D(-1.8, 0, -1.57361e-07, 0, 1.8, 0, 1.57361e-07, 0, -1.8, -950, 0, 190)
+
+[node name="label_nrzg" type="Label3D" parent="." unique_id=926839475]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nrzg  razormane"
+font_size = 40
+
+[node name="nrzm" type="Node3D" parent="." unique_id=589046304 instance=ExtResource("3_cqiuu")]
+transform = Transform3D(-1.3, 0, -1.13649605e-07, 0, 1.3, 0, 1.13649605e-07, 0, -1.3, -1330, 0, 190)
+
+[node name="label_nrzm" type="Label3D" parent="." unique_id=960481168]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nrzm  razormane"
+font_size = 40
+
+[node name="nrzs" type="Node3D" parent="." unique_id=1905383724 instance=ExtResource("2_gbbt1")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1710, 0, 190)
+
+[node name="label_nrzs" type="Label3D" parent="." unique_id=2066256492]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nrzs  razormane"
+font_size = 40
+
+[node name="nrzt" type="Node3D" parent="." unique_id=556337151 instance=ExtResource("1_rqae2")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -2090, 0, 190)
+
+[node name="label_nrzt" type="Label3D" parent="." unique_id=1071820874]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nrzt  razormane"
+font_size = 40

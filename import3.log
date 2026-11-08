@@ -1,0 +1,4 @@
+ERROR: Condition "f.is_null()" is true. Continuing.
+   at: get_multiple_md5 (core/io/file_access.cpp:967)
+ERROR: Condition "f.is_null()" is true. Continuing.
+   at: get_multiple_md5 (core/io/file_access.cpp:967)

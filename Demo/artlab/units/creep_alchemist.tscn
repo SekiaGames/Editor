@@ -1,0 +1,65 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/HeroGoblinAlchemist/HeroGoblinAlchemist.tscn" id="1_bm5dr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tnmif"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_x7vhl"]
+size = Vector2(3040, 380)
+
+[node name="creep_alchemist" type="Node3D" unique_id=1683751704]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=615334566]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_tnmif")
+mesh = SubResource("PlaneMesh_x7vhl")
+
+[node name="Nal2" type="Node3D" parent="." unique_id=562121519 instance=ExtResource("1_bm5dr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 190)
+
+[node name="label_Nal2" type="Label3D" parent="." unique_id=987883734]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Nal2  alchemist"
+font_size = 40
+
+[node name="Nal3" type="Node3D" parent="." unique_id=1488182288 instance=ExtResource("1_bm5dr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_Nal3" type="Label3D" parent="." unique_id=599184764]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Nal3  alchemist"
+font_size = 40
+
+[node name="Nalc" type="Node3D" parent="." unique_id=1300227525 instance=ExtResource("1_bm5dr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 190)
+
+[node name="label_Nalc" type="Label3D" parent="." unique_id=2138479876]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Nalc  alchemist"
+font_size = 40
+
+[node name="Nalm" type="Node3D" parent="." unique_id=158214742 instance=ExtResource("1_bm5dr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 190)
+
+[node name="label_Nalm" type="Label3D" parent="." unique_id=1281788919]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Nalm  alchemist"
+font_size = 40

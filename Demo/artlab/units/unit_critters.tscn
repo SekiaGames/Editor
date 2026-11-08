@@ -1,0 +1,293 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Albatross/Albatross.tscn" id="1_18jeh"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/SpiderCrab/SpiderCrab.tscn" id="2_n4cjv"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/BlackStagMale/BlackStagMale.tscn" id="3_we4md"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/BrownWolf/BrownWolf.tscn" id="4_c0p64"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/DuneWorm/DuneWorm.tscn" id="5_7rni4"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/EasterChicken/EasterChicken.tscn" id="6_lrnhw"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/EasterRabbit/EasterRabbit.tscn" id="7_xe56o"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Felboar/Felboar.tscn" id="8_twnos"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Frog/Frog.tscn" id="9_2rdeb"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/HermitCrab/HermitCrab.tscn" id="10_3npeh"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Pig/Pig.tscn" id="11_c6ojq"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Penguin/Penguin.tscn" id="12_p1lhj"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Raccoon/Raccoon.tscn" id="13_as6r1"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Rat/Rat.tscn" id="14_j6wm6"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Seal/Seal.tscn" id="15_513ob"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Sheep/Sheep.tscn" id="16_4k1p3"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/FlyingSheep/FlyingSheep.tscn" id="17_64jnf"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Skink/Skink.tscn" id="18_5maws"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/SnowOwl/SnowOwl.tscn" id="19_c6pwg"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/critters/Vulture/Vulture.tscn" id="20_patr6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q7qci"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_av778"]
+size = Vector2(3040, 1140)
+
+[node name="unit_critters" type="Node3D" unique_id=1024543951]
+metadata/map_width = 8
+metadata/map_height = 3
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 570)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1930879406]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 570)
+material_override = SubResource("StandardMaterial3D_q7qci")
+mesh = SubResource("PlaneMesh_av778")
+
+[node name="nalb" type="Node3D" parent="." unique_id=1396350628 instance=ExtResource("1_18jeh")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -190, 0, 190)
+
+[node name="label_nalb" type="Label3D" parent="." unique_id=1592656067]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nalb  animal"
+font_size = 40
+
+[node name="ncrb" type="Node3D" parent="." unique_id=1282183678 instance=ExtResource("2_n4cjv")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_ncrb" type="Label3D" parent="." unique_id=1512834927]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ncrb  animal"
+font_size = 40
+
+[node name="nder" type="Node3D" parent="." unique_id=1913065654 instance=ExtResource("3_we4md")]
+transform = Transform3D(-1.5, 0, -1.3113416e-07, 0, 1.5, 0, 1.3113416e-07, 0, -1.5, -950, 0, 190)
+
+[node name="label_nder" type="Label3D" parent="." unique_id=422491744]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nder  animal"
+font_size = 40
+
+[node name="ndog" type="Node3D" parent="." unique_id=38934836 instance=ExtResource("4_c0p64")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 190)
+
+[node name="label_ndog" type="Label3D" parent="." unique_id=1191337084]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndog  animal"
+font_size = 40
+
+[node name="ndwm" type="Node3D" parent="." unique_id=1293396507 instance=ExtResource("5_7rni4")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 190)
+
+[node name="label_ndwm" type="Label3D" parent="." unique_id=458367123]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndwm  animal"
+font_size = 40
+
+[node name="nech" type="Node3D" parent="." unique_id=749668033 instance=ExtResource("6_lrnhw")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 190)
+
+[node name="label_nech" type="Label3D" parent="." unique_id=75536114]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nech  animal"
+font_size = 40
+
+[node name="necr" type="Node3D" parent="." unique_id=465121194 instance=ExtResource("7_xe56o")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 190)
+
+[node name="label_necr" type="Label3D" parent="." unique_id=1646153787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "necr  animal"
+font_size = 40
+
+[node name="nfbr" type="Node3D" parent="." unique_id=16932682 instance=ExtResource("8_twnos")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 190)
+
+[node name="label_nfbr" type="Label3D" parent="." unique_id=89353892]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfbr  animal"
+font_size = 40
+
+[node name="nfro" type="Node3D" parent="." unique_id=617986866 instance=ExtResource("9_2rdeb")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 570)
+
+[node name="label_nfro" type="Label3D" parent="." unique_id=309389733]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfro  animal"
+font_size = 40
+
+[node name="nhmc" type="Node3D" parent="." unique_id=189771102 instance=ExtResource("10_3npeh")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 570)
+
+[node name="label_nhmc" type="Label3D" parent="." unique_id=532121370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nhmc  animal"
+font_size = 40
+
+[node name="npig" type="Node3D" parent="." unique_id=886023484 instance=ExtResource("11_c6ojq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 570)
+
+[node name="label_npig" type="Label3D" parent="." unique_id=683419778]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npig  animal"
+font_size = 40
+
+[node name="npng" type="Node3D" parent="." unique_id=1505309831 instance=ExtResource("12_p1lhj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 570)
+
+[node name="label_npng" type="Label3D" parent="." unique_id=1761971757]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npng  animal"
+font_size = 40
+
+[node name="npnw" type="Node3D" parent="." unique_id=654001403 instance=ExtResource("12_p1lhj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 570)
+
+[node name="label_npnw" type="Label3D" parent="." unique_id=1173792493]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npnw  animal"
+font_size = 40
+
+[node name="nrac" type="Node3D" parent="." unique_id=1578309838 instance=ExtResource("13_as6r1")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 570)
+
+[node name="label_nrac" type="Label3D" parent="." unique_id=1890490924]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nrac  animal"
+font_size = 40
+
+[node name="nrat" type="Node3D" parent="." unique_id=931307532 instance=ExtResource("14_j6wm6")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 570)
+
+[node name="label_nrat" type="Label3D" parent="." unique_id=608128434]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nrat  animal"
+font_size = 40
+
+[node name="nsea" type="Node3D" parent="." unique_id=525277565 instance=ExtResource("15_513ob")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 570)
+
+[node name="label_nsea" type="Label3D" parent="." unique_id=819631739]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsea  animal"
+font_size = 40
+
+[node name="nsha" type="Node3D" parent="." unique_id=1138992926 instance=ExtResource("16_4k1p3")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -190, 0, 950)
+
+[node name="label_nsha" type="Label3D" parent="." unique_id=140025909]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsha  animal"
+font_size = 40
+
+[node name="nshe" type="Node3D" parent="." unique_id=1026032376 instance=ExtResource("16_4k1p3")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -570, 0, 950)
+
+[node name="label_nshe" type="Label3D" parent="." unique_id=2076971830]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nshe  animal"
+font_size = 40
+
+[node name="nshf" type="Node3D" parent="." unique_id=1616268212 instance=ExtResource("17_64jnf")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -950, 0, 950)
+
+[node name="label_nshf" type="Label3D" parent="." unique_id=1092004859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nshf  animal"
+font_size = 40
+
+[node name="nshw" type="Node3D" parent="." unique_id=550721574 instance=ExtResource("16_4k1p3")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1330, 0, 950)
+
+[node name="label_nshw" type="Label3D" parent="." unique_id=312343757]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nshw  animal"
+font_size = 40
+
+[node name="nskk" type="Node3D" parent="." unique_id=1570436330 instance=ExtResource("18_5maws")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 950)
+
+[node name="label_nskk" type="Label3D" parent="." unique_id=47235828]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nskk  animal"
+font_size = 40
+
+[node name="nsno" type="Node3D" parent="." unique_id=1345958624 instance=ExtResource("19_c6pwg")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -2090, 0, 950)
+
+[node name="label_nsno" type="Label3D" parent="." unique_id=168647346]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsno  animal"
+font_size = 40
+
+[node name="nvul" type="Node3D" parent="." unique_id=610070482 instance=ExtResource("20_patr6")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 950)
+
+[node name="label_nvul" type="Label3D" parent="." unique_id=1278771992]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nvul  animal"
+font_size = 40

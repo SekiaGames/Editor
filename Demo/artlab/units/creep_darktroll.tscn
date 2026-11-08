@@ -1,0 +1,89 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/DarkTroll/DarkTroll.tscn" id="1_dr0q0"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/DarkTrollShadowPriest/DarkTrollShadowPriest.tscn" id="2_rmn5j"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/DarkTrollTrapper/DarkTrollTrapper.tscn" id="3_i3vir"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l7mg4"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_6vhvo"]
+size = Vector2(3040, 380)
+
+[node name="creep_darktroll" type="Node3D" unique_id=810804190]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1069004790]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_l7mg4")
+mesh = SubResource("PlaneMesh_6vhvo")
+
+[node name="ndtb" type="Node3D" parent="." unique_id=211872988 instance=ExtResource("1_dr0q0")]
+transform = Transform3D(-1.3, 0, -1.13649605e-07, 0, 1.3, 0, 1.13649605e-07, 0, -1.3, -190, 0, 190)
+
+[node name="label_ndtb" type="Label3D" parent="." unique_id=1574429265]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndtb  darktroll"
+font_size = 40
+
+[node name="ndth" type="Node3D" parent="." unique_id=1493912222 instance=ExtResource("2_rmn5j")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -570, 0, 190)
+
+[node name="label_ndth" type="Label3D" parent="." unique_id=482177806]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndth  darktroll"
+font_size = 40
+
+[node name="ndtp" type="Node3D" parent="." unique_id=1326364408 instance=ExtResource("2_rmn5j")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -950, 0, 190)
+
+[node name="label_ndtp" type="Label3D" parent="." unique_id=681862911]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndtp  darktroll"
+font_size = 40
+
+[node name="ndtr" type="Node3D" parent="." unique_id=1597387270 instance=ExtResource("1_dr0q0")]
+transform = Transform3D(-0.85, 0, -7.430936e-08, 0, 0.85, 0, 7.430936e-08, 0, -0.85, -1330, 0, 190)
+
+[node name="label_ndtr" type="Label3D" parent="." unique_id=1824335544]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndtr  darktroll"
+font_size = 40
+
+[node name="ndtt" type="Node3D" parent="." unique_id=1029409520 instance=ExtResource("3_i3vir")]
+transform = Transform3D(-1.15, 0, -1.0053619e-07, 0, 1.15, 0, 1.0053619e-07, 0, -1.15, -1710, 0, 190)
+
+[node name="label_ndtt" type="Label3D" parent="." unique_id=195730619]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndtt  darktroll"
+font_size = 40
+
+[node name="ndtw" type="Node3D" parent="." unique_id=1825334905 instance=ExtResource("3_i3vir")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -2090, 0, 190)
+
+[node name="label_ndtw" type="Label3D" parent="." unique_id=362694516]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndtw  darktroll"
+font_size = 40

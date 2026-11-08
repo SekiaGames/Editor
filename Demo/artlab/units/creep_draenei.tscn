@@ -1,0 +1,133 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/other/DranaiWhite/DranaiWhite.tscn" id="1_7n8ae"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/other/Dranai/Dranai.tscn" id="2_icuew"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/other/DranaiMage/DranaiMage.tscn" id="3_iwcwo"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xqdi3"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_tkcyp"]
+size = Vector2(3040, 760)
+
+[node name="creep_draenei" type="Node3D" unique_id=1743479405]
+metadata/map_width = 8
+metadata/map_height = 2
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 380)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1173092074]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 380)
+material_override = SubResource("StandardMaterial3D_xqdi3")
+mesh = SubResource("PlaneMesh_tkcyp")
+
+[node name="ndrd" type="Node3D" parent="." unique_id=1393745747 instance=ExtResource("1_7n8ae")]
+transform = Transform3D(-1.15, 0, -1.0053619e-07, 0, 1.15, 0, 1.0053619e-07, 0, -1.15, -190, 0, 190)
+
+[node name="label_ndrd" type="Label3D" parent="." unique_id=2143403469]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrd  draenei"
+font_size = 40
+
+[node name="ndrf" type="Node3D" parent="." unique_id=900089699 instance=ExtResource("2_icuew")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -570, 0, 190)
+
+[node name="label_ndrf" type="Label3D" parent="." unique_id=726562179]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrf  draenei"
+font_size = 40
+
+[node name="ndrh" type="Node3D" parent="." unique_id=193157996 instance=ExtResource("3_iwcwo")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 190)
+
+[node name="label_ndrh" type="Label3D" parent="." unique_id=1124571887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrh  draenei"
+font_size = 40
+
+[node name="ndrl" type="Node3D" parent="." unique_id=2125203421 instance=ExtResource("2_icuew")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -1330, 0, 190)
+
+[node name="label_ndrl" type="Label3D" parent="." unique_id=1072274170]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrl  draenei"
+font_size = 40
+
+[node name="ndrm" type="Node3D" parent="." unique_id=1698389539 instance=ExtResource("3_iwcwo")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -1710, 0, 190)
+
+[node name="label_ndrm" type="Label3D" parent="." unique_id=2106851867]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrm  draenei"
+font_size = 40
+
+[node name="ndrn" type="Node3D" parent="." unique_id=539716833 instance=ExtResource("1_7n8ae")]
+transform = Transform3D(-1.15, 0, -1.0053619e-07, 0, 1.15, 0, 1.0053619e-07, 0, -1.15, -2090, 0, 190)
+
+[node name="label_ndrn" type="Label3D" parent="." unique_id=104494083]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrn  draenei"
+font_size = 40
+
+[node name="ndrp" type="Node3D" parent="." unique_id=2129516301 instance=ExtResource("1_7n8ae")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -2470, 0, 190)
+
+[node name="label_ndrp" type="Label3D" parent="." unique_id=431971196]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrp  draenei"
+font_size = 40
+
+[node name="ndrs" type="Node3D" parent="." unique_id=1032355196 instance=ExtResource("3_iwcwo")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -2850, 0, 190)
+
+[node name="label_ndrs" type="Label3D" parent="." unique_id=1851965368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrs  draenei"
+font_size = 40
+
+[node name="ndrt" type="Node3D" parent="." unique_id=154578815 instance=ExtResource("2_icuew")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 570)
+
+[node name="label_ndrt" type="Label3D" parent="." unique_id=350776403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrt  draenei"
+font_size = 40
+
+[node name="ndrw" type="Node3D" parent="." unique_id=58326723 instance=ExtResource("2_icuew")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 570)
+
+[node name="label_ndrw" type="Label3D" parent="." unique_id=1947234016]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrw  draenei"
+font_size = 40

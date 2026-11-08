@@ -1,0 +1,100 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Archnathid/Archnathid.tscn" id="1_8eut1"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/ArchnathidGreen/ArchnathidGreen.tscn" id="2_h6q0r"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Archnathidpurple/Archnathidpurple.tscn" id="3_5rn16"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_coyka"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_838rx"]
+size = Vector2(3040, 380)
+
+[node name="creep_arachnathid" type="Node3D" unique_id=478756327]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1312655838]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_coyka")
+mesh = SubResource("PlaneMesh_838rx")
+
+[node name="nanb" type="Node3D" parent="." unique_id=1577294784 instance=ExtResource("1_8eut1")]
+transform = Transform3D(-0.65, 0, -5.6824803e-08, 0, 0.65, 0, 5.6824803e-08, 0, -0.65, -190, 0, 190)
+
+[node name="label_nanb" type="Label3D" parent="." unique_id=1609053322]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nanb  arachnathid"
+font_size = 40
+
+[node name="nanc" type="Node3D" parent="." unique_id=970167587 instance=ExtResource("2_h6q0r")]
+transform = Transform3D(-0.65, 0, -5.6824803e-08, 0, 0.65, 0, 5.6824803e-08, 0, -0.65, -570, 0, 190)
+
+[node name="label_nanc" type="Label3D" parent="." unique_id=79282671]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nanc  arachnathid"
+font_size = 40
+
+[node name="nane" type="Node3D" parent="." unique_id=1051249142 instance=ExtResource("1_8eut1")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 190)
+
+[node name="label_nane" type="Label3D" parent="." unique_id=84571372]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nane  arachnathid"
+font_size = 40
+
+[node name="nanm" type="Node3D" parent="." unique_id=509127060 instance=ExtResource("1_8eut1")]
+transform = Transform3D(-0.65, 0, -5.6824803e-08, 0, 0.65, 0, 5.6824803e-08, 0, -0.65, -1330, 0, 190)
+
+[node name="label_nanm" type="Label3D" parent="." unique_id=2135082159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nanm  arachnathid"
+font_size = 40
+
+[node name="nano" type="Node3D" parent="." unique_id=1506490015 instance=ExtResource("3_5rn16")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1710, 0, 190)
+
+[node name="label_nano" type="Label3D" parent="." unique_id=567713657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nano  arachnathid"
+font_size = 40
+
+[node name="nanw" type="Node3D" parent="." unique_id=1581042349 instance=ExtResource("2_h6q0r")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -2090, 0, 190)
+
+[node name="label_nanw" type="Label3D" parent="." unique_id=2075606050]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nanw  arachnathid"
+font_size = 40
+
+[node name="nbnb" type="Node3D" parent="." unique_id=948415133 instance=ExtResource("1_8eut1")]
+transform = Transform3D(-0.65, 0, -5.6824803e-08, 0, 0.65, 0, 5.6824803e-08, 0, -0.65, -2470, 0, 190)
+
+[node name="label_nbnb" type="Label3D" parent="." unique_id=886826258]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nbnb  arachnathid"
+font_size = 40

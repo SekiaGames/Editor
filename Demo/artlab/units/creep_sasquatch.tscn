@@ -1,0 +1,66 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Sasquatch/Sasquatch.tscn" id="1_887uj"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SasquatchShaman/SasquatchShaman.tscn" id="2_t2ybl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xlssv"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_l5srs"]
+size = Vector2(3040, 380)
+
+[node name="creep_sasquatch" type="Node3D" unique_id=201519097]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1938627931]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_xlssv")
+mesh = SubResource("PlaneMesh_l5srs")
+
+[node name="nsqa" type="Node3D" parent="." unique_id=426612172 instance=ExtResource("1_887uj")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -190, 0, 190)
+
+[node name="label_nsqa" type="Label3D" parent="." unique_id=154723766]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsqa  sasquatch"
+font_size = 40
+
+[node name="nsqe" type="Node3D" parent="." unique_id=529277273 instance=ExtResource("2_t2ybl")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_nsqe" type="Label3D" parent="." unique_id=1376853010]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsqe  sasquatch"
+font_size = 40
+
+[node name="nsqo" type="Node3D" parent="." unique_id=1855846342 instance=ExtResource("1_887uj")]
+transform = Transform3D(-1.35, 0, -1.1802075e-07, 0, 1.35, 0, 1.1802075e-07, 0, -1.35, -950, 0, 190)
+
+[node name="label_nsqo" type="Label3D" parent="." unique_id=761774112]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsqo  sasquatch"
+font_size = 40
+
+[node name="nsqt" type="Node3D" parent="." unique_id=1615941164 instance=ExtResource("1_887uj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 190)
+
+[node name="label_nsqt" type="Label3D" parent="." unique_id=1891345967]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsqt  sasquatch"
+font_size = 40

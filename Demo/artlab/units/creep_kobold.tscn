@@ -1,0 +1,66 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Kobold/Kobold.tscn" id="1_x2sfl"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/KoboldGeomancer/KoboldGeomancer.tscn" id="2_ofksa"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l5fyg"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_e1yb7"]
+size = Vector2(3040, 380)
+
+[node name="creep_kobold" type="Node3D" unique_id=712900388]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1102830851]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_l5fyg")
+mesh = SubResource("PlaneMesh_e1yb7")
+
+[node name="nkob" type="Node3D" parent="." unique_id=1224741210 instance=ExtResource("1_x2sfl")]
+transform = Transform3D(-0.85, 0, -7.430936e-08, 0, 0.85, 0, 7.430936e-08, 0, -0.85, -190, 0, 190)
+
+[node name="label_nkob" type="Label3D" parent="." unique_id=1275725137]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nkob  kobold"
+font_size = 40
+
+[node name="nkog" type="Node3D" parent="." unique_id=732046151 instance=ExtResource("2_ofksa")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -570, 0, 190)
+
+[node name="label_nkog" type="Label3D" parent="." unique_id=11682490]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nkog  kobold"
+font_size = 40
+
+[node name="nkol" type="Node3D" parent="." unique_id=1718902461 instance=ExtResource("1_x2sfl")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -950, 0, 190)
+
+[node name="label_nkol" type="Label3D" parent="." unique_id=1923655283]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nkol  kobold"
+font_size = 40
+
+[node name="nkot" type="Node3D" parent="." unique_id=996480850 instance=ExtResource("1_x2sfl")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -1330, 0, 190)
+
+[node name="label_nkot" type="Label3D" parent="." unique_id=395966397]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nkot  kobold"
+font_size = 40

@@ -1,0 +1,66 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/human/WaterElemental/WaterElemental.tscn" id="1_7aw8w"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/SeaElemental/SeaElemental.tscn" id="2_n1d77"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cbwbp"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_8d0q5"]
+size = Vector2(3040, 380)
+
+[node name="creep_elemental" type="Node3D" unique_id=1627002806]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1584062375]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_cbwbp")
+mesh = SubResource("PlaneMesh_8d0q5")
+
+[node name="nelb" type="Node3D" parent="." unique_id=293682716 instance=ExtResource("1_7aw8w")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -190, 0, 190)
+
+[node name="label_nelb" type="Label3D" parent="." unique_id=1944617654]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nelb  elemental"
+font_size = 40
+
+[node name="nele" type="Node3D" parent="." unique_id=700192610 instance=ExtResource("1_7aw8w")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -570, 0, 190)
+
+[node name="label_nele" type="Label3D" parent="." unique_id=99056411]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nele  elemental"
+font_size = 40
+
+[node name="nrel" type="Node3D" parent="." unique_id=746757981 instance=ExtResource("2_n1d77")]
+transform = Transform3D(-0.7, 0, -6.119594e-08, 0, 0.7, 0, 6.119594e-08, 0, -0.7, -950, 0, 190)
+
+[node name="label_nrel" type="Label3D" parent="." unique_id=1871454980]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nrel  elemental"
+font_size = 40
+
+[node name="nsel" type="Node3D" parent="." unique_id=413595332 instance=ExtResource("2_n1d77")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -1330, 0, 190)
+
+[node name="label_nsel" type="Label3D" parent="." unique_id=100377582]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsel  elemental"
+font_size = 40

@@ -1,0 +1,89 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/FirePandarenBrewmaster/FirePandarenBrewmaster.tscn" id="1_j4uh4"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/StormPandarenBrewmaster/StormPandarenBrewmaster.tscn" id="2_3pwyr"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/EarthPandarenBrewmaster/EarthPandarenBrewmaster.tscn" id="3_11b1r"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k5vjn"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_uhjwq"]
+size = Vector2(3040, 380)
+
+[node name="creep_panda" type="Node3D" unique_id=168143117]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=996530279]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_k5vjn")
+mesh = SubResource("PlaneMesh_uhjwq")
+
+[node name="npn1" type="Node3D" parent="." unique_id=487760254 instance=ExtResource("1_j4uh4")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -190, 0, 190)
+
+[node name="label_npn1" type="Label3D" parent="." unique_id=482661765]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npn1  panda"
+font_size = 40
+
+[node name="npn2" type="Node3D" parent="." unique_id=2105864833 instance=ExtResource("2_3pwyr")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -570, 0, 190)
+
+[node name="label_npn2" type="Label3D" parent="." unique_id=1127719122]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npn2  panda"
+font_size = 40
+
+[node name="npn3" type="Node3D" parent="." unique_id=1626757809 instance=ExtResource("3_11b1r")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -950, 0, 190)
+
+[node name="label_npn3" type="Label3D" parent="." unique_id=1407525006]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npn3  panda"
+font_size = 40
+
+[node name="npn4" type="Node3D" parent="." unique_id=735996268 instance=ExtResource("1_j4uh4")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -1330, 0, 190)
+
+[node name="label_npn4" type="Label3D" parent="." unique_id=2110135439]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npn4  panda"
+font_size = 40
+
+[node name="npn5" type="Node3D" parent="." unique_id=338650128 instance=ExtResource("2_3pwyr")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -1710, 0, 190)
+
+[node name="label_npn5" type="Label3D" parent="." unique_id=1077677047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npn5  panda"
+font_size = 40
+
+[node name="npn6" type="Node3D" parent="." unique_id=5955592 instance=ExtResource("3_11b1r")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -2090, 0, 190)
+
+[node name="label_npn6" type="Label3D" parent="." unique_id=1853557114]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "npn6  panda"
+font_size = 40

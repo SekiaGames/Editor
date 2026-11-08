@@ -1,0 +1,572 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/HeroKeeperoftheGrove/HeroKeeperoftheGrove.tscn" id="1_3k53t"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/HeroDemonHunter/HeroDemonHunter.tscn" id="2_6i5is"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/EvilIllidan/IllidanEvil.tscn" id="3_h8bjq"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Furion/Furion.tscn" id="4_0xq7l"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/HeroKeeperoftheGroveGhost/HeroKeeperoftheGroveGhost.tscn" id="5_nbcqe"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/MalFurion/MalFurion.tscn" id="6_eef5o"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/MalFurion/MalFurionNoStag.tscn" id="7_sthsn"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/HeroMoonPriestess/HeroMoonPriestess.tscn" id="8_2bkc3"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/herowarden/herowarden.tscn" id="9_nabhd"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Maiev/Maiev.tscn" id="10_p1gje"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Archer/Archer.tscn" id="11_ecxfj"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Ballista/Ballista.tscn" id="12_ayyg8"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/NightElfBattleship/NightElfBattleship.tscn" id="13_ux5p7"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Chimaera/Chimaera.tscn" id="14_jdvkx"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/DruidoftheClaw/DruidoftheClaw.tscn" id="15_khyku"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/NightElfDestroyerShip/NightElfDestroyerShip.tscn" id="16_xs26j"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/DruidoftheTalon/DruidoftheTalon.tscn" id="17_xig2a"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Dryad/Dryad.tscn" id="18_xvd47"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/FaerieDragon/FaerieDragon.tscn" id="19_g8nn0"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Ent/Ent.tscn" id="20_tdhlt"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Hippogryph/Hippogryph.tscn" id="21_c8lew"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/RiddenHippogryph/RiddenHippogryph.tscn" id="22_h7dyh"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/other/IllidanEvilCaged/IllidanEvilCaged.tscn" id="23_7qjcr"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/MountainGiant/MountainGiant.tscn" id="24_qpemy"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Runner/Runner.tscn" id="25_ipw4n"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Huntress/Huntress.tscn" id="26_iej82"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Shandris/Shandris.tscn" id="27_0pygf"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/SpiritOfVengeance/SpiritOfVengeance.tscn" id="28_i0cbq"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/NightElfTransportShip/NightElfTransportShip.tscn" id="29_kseul"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Vengeance/Vengeance.tscn" id="30_le4dt"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/Wisp/Wisp.tscn" id="31_b4nov"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/nightelf/OwlSCOUT/OwlSCOUT.tscn" id="32_2tqxu"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/assassin/assassin.tscn" id="33_ltq0p"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/GreenDragon/GreenDragon.tscn" id="34_ls5ko"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/watcher/watcher.tscn" id="35_k1mwj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fubrh"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_vb4u0"]
+size = Vector2(3040, 3040)
+
+[node name="unit_nightelf" type="Node3D" unique_id=199116088]
+metadata/map_width = 8
+metadata/map_height = 8
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 1520)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1800183682]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 1520)
+material_override = SubResource("StandardMaterial3D_fubrh")
+mesh = SubResource("PlaneMesh_vb4u0")
+
+[node name="Ecen" type="Node3D" parent="." unique_id=580291387 instance=ExtResource("1_3k53t")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -190, 0, 190)
+
+[node name="label_Ecen" type="Label3D" parent="." unique_id=1981321111]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ecen"
+font_size = 40
+
+[node name="Edem" type="Node3D" parent="." unique_id=920679552 instance=ExtResource("2_6i5is")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_Edem" type="Label3D" parent="." unique_id=748098607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Edem  EHero03"
+font_size = 40
+
+[node name="Edmm" type="Node3D" parent="." unique_id=970720733 instance=ExtResource("2_6i5is")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 190)
+
+[node name="label_Edmm" type="Label3D" parent="." unique_id=1042802135]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Edmm  EHero04"
+font_size = 40
+
+[node name="Eevi" type="Node3D" parent="." unique_id=1194348284 instance=ExtResource("3_h8bjq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 190)
+
+[node name="label_Eevi" type="Label3D" parent="." unique_id=247219079]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Eevi"
+font_size = 40
+
+[node name="Eevm" type="Node3D" parent="." unique_id=77612322 instance=ExtResource("3_h8bjq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 190)
+
+[node name="label_Eevm" type="Label3D" parent="." unique_id=1304895145]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Eevm"
+font_size = 40
+
+[node name="Efur" type="Node3D" parent="." unique_id=699072328 instance=ExtResource("4_0xq7l")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -2090, 0, 190)
+
+[node name="label_Efur" type="Label3D" parent="." unique_id=246216032]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Efur"
+font_size = 40
+
+[node name="Eidm" type="Node3D" parent="." unique_id=452131656 instance=ExtResource("2_6i5is")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 190)
+
+[node name="label_Eidm" type="Label3D" parent="." unique_id=191185407]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Eidm"
+font_size = 40
+
+[node name="Eill" type="Node3D" parent="." unique_id=147044071 instance=ExtResource("2_6i5is")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 190)
+
+[node name="label_Eill" type="Label3D" parent="." unique_id=1048343312]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Eill"
+font_size = 40
+
+[node name="Eilm" type="Node3D" parent="." unique_id=1504594845 instance=ExtResource("2_6i5is")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 570)
+
+[node name="label_Eilm" type="Label3D" parent="." unique_id=1107207763]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Eilm"
+font_size = 40
+
+[node name="Ekee" type="Node3D" parent="." unique_id=828693860 instance=ExtResource("1_3k53t")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 570)
+
+[node name="label_Ekee" type="Label3D" parent="." unique_id=1047920724]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ekee  EHero01"
+font_size = 40
+
+[node name="Ekgg" type="Node3D" parent="." unique_id=267260954 instance=ExtResource("5_nbcqe")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 570)
+
+[node name="label_Ekgg" type="Label3D" parent="." unique_id=1934127131]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ekgg"
+font_size = 40
+
+[node name="Emfr" type="Node3D" parent="." unique_id=1772954988 instance=ExtResource("6_eef5o")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1330, 0, 570)
+
+[node name="label_Emfr" type="Label3D" parent="." unique_id=65235362]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Emfr"
+font_size = 40
+
+[node name="Emns" type="Node3D" parent="." unique_id=481486996 instance=ExtResource("7_sthsn")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1710, 0, 570)
+
+[node name="label_Emns" type="Label3D" parent="." unique_id=2034507841]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Emns"
+font_size = 40
+
+[node name="Emoo" type="Node3D" parent="." unique_id=765399718 instance=ExtResource("8_2bkc3")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 570)
+
+[node name="label_Emoo" type="Label3D" parent="." unique_id=1780714329]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Emoo  EHero02"
+font_size = 40
+
+[node name="Etyr" type="Node3D" parent="." unique_id=1868283182 instance=ExtResource("8_2bkc3")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 570)
+
+[node name="label_Etyr" type="Label3D" parent="." unique_id=898570303]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Etyr"
+font_size = 40
+
+[node name="Ewar" type="Node3D" parent="." unique_id=530350362 instance=ExtResource("9_nabhd")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 570)
+
+[node name="label_Ewar" type="Label3D" parent="." unique_id=1706941720]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ewar  EHero07"
+font_size = 40
+
+[node name="Ewrd" type="Node3D" parent="." unique_id=1305707034 instance=ExtResource("10_p1gje")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 950)
+
+[node name="label_Ewrd" type="Label3D" parent="." unique_id=352462926]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Ewrd"
+font_size = 40
+
+[node name="earc" type="Node3D" parent="." unique_id=1082918551 instance=ExtResource("11_ecxfj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 950)
+
+[node name="label_earc" type="Label3D" parent="." unique_id=1172043890]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "earc  EUnit02"
+font_size = 40
+
+[node name="ebal" type="Node3D" parent="." unique_id=1189144092 instance=ExtResource("12_ayyg8")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 950)
+
+[node name="label_ebal" type="Label3D" parent="." unique_id=1552687930]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ebal  EUnit05"
+font_size = 40
+
+[node name="ebsh" type="Node3D" parent="." unique_id=838846763 instance=ExtResource("13_ux5p7")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 950)
+
+[node name="label_ebsh" type="Label3D" parent="." unique_id=1421875800]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ebsh  boat"
+font_size = 40
+
+[node name="echm" type="Node3D" parent="." unique_id=1780899448 instance=ExtResource("14_jdvkx")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 950)
+
+[node name="label_echm" type="Label3D" parent="." unique_id=883715272]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "echm  EUnit08"
+font_size = 40
+
+[node name="edcm" type="Node3D" parent="." unique_id=5582716 instance=ExtResource("15_khyku")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 950)
+
+[node name="label_edcm" type="Label3D" parent="." unique_id=1454573900]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "edcm  EUnit12"
+font_size = 40
+
+[node name="edes" type="Node3D" parent="." unique_id=5542887 instance=ExtResource("16_xs26j")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 950)
+
+[node name="label_edes" type="Label3D" parent="." unique_id=377267917]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 1080)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "edes  boat"
+font_size = 40
+
+[node name="edoc" type="Node3D" parent="." unique_id=384774973 instance=ExtResource("15_khyku")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 1330)
+
+[node name="label_edoc" type="Label3D" parent="." unique_id=1857666183]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "edoc  EUnit11"
+font_size = 40
+
+[node name="edot" type="Node3D" parent="." unique_id=277443500 instance=ExtResource("17_xig2a")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 1330)
+
+[node name="label_edot" type="Label3D" parent="." unique_id=639775574]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "edot  EUnit09"
+font_size = 40
+
+[node name="edry" type="Node3D" parent="." unique_id=2099726229 instance=ExtResource("18_xvd47")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 1330)
+
+[node name="label_edry" type="Label3D" parent="." unique_id=1758282391]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "edry  EUnit04"
+font_size = 40
+
+[node name="edtm" type="Node3D" parent="." unique_id=1755250755 instance=ExtResource("17_xig2a")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 1330)
+
+[node name="label_edtm" type="Label3D" parent="." unique_id=1241834365]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "edtm  EUnit10"
+font_size = 40
+
+[node name="efdr" type="Node3D" parent="." unique_id=1532477960 instance=ExtResource("19_g8nn0")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 1330)
+
+[node name="label_efdr" type="Label3D" parent="." unique_id=1412510939]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "efdr  EUnit21"
+font_size = 40
+
+[node name="efon" type="Node3D" parent="." unique_id=1590348855 instance=ExtResource("20_tdhlt")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 1330)
+
+[node name="label_efon" type="Label3D" parent="." unique_id=500165564]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "efon  EUnit14"
+font_size = 40
+
+[node name="ehip" type="Node3D" parent="." unique_id=1344403486 instance=ExtResource("21_c8lew")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 1330)
+
+[node name="label_ehip" type="Label3D" parent="." unique_id=1039412055]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ehip  EUnit06"
+font_size = 40
+
+[node name="ehpr" type="Node3D" parent="." unique_id=2021288502 instance=ExtResource("22_h7dyh")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 1330)
+
+[node name="label_ehpr" type="Label3D" parent="." unique_id=649423834]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 1460)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ehpr  EUnit07"
+font_size = 40
+
+[node name="eilw" type="Node3D" parent="." unique_id=746568154 instance=ExtResource("23_7qjcr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 1710)
+
+[node name="label_eilw" type="Label3D" parent="." unique_id=1053647685]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "eilw"
+font_size = 40
+
+[node name="emtg" type="Node3D" parent="." unique_id=852465610 instance=ExtResource("24_qpemy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 1710)
+
+[node name="label_emtg" type="Label3D" parent="." unique_id=1585235771]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "emtg  EUnit13"
+font_size = 40
+
+[node name="enec" type="Node3D" parent="." unique_id=664581701 instance=ExtResource("25_ipw4n")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 1710)
+
+[node name="label_enec" type="Label3D" parent="." unique_id=202826361]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "enec"
+font_size = 40
+
+[node name="ensh" type="Node3D" parent="." unique_id=1703736890 instance=ExtResource("26_iej82")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1330, 0, 1710)
+
+[node name="label_ensh" type="Label3D" parent="." unique_id=1210728197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ensh"
+font_size = 40
+
+[node name="esen" type="Node3D" parent="." unique_id=223506337 instance=ExtResource("26_iej82")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 1710)
+
+[node name="label_esen" type="Label3D" parent="." unique_id=591491825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "esen  EUnit03"
+font_size = 40
+
+[node name="eshd" type="Node3D" parent="." unique_id=800711801 instance=ExtResource("27_0pygf")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -2090, 0, 1710)
+
+[node name="label_eshd" type="Label3D" parent="." unique_id=1090884278]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "eshd"
+font_size = 40
+
+[node name="espv" type="Node3D" parent="." unique_id=979350494 instance=ExtResource("28_i0cbq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2850, 0, 1710)
+
+[node name="label_espv" type="Label3D" parent="." unique_id=621212829]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 1840)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "espv  EUnit15"
+font_size = 40
+
+[node name="etrs" type="Node3D" parent="." unique_id=1730158384 instance=ExtResource("29_kseul")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 2090)
+
+[node name="label_etrs" type="Label3D" parent="." unique_id=208216322]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "etrs  boat"
+font_size = 40
+
+[node name="even" type="Node3D" parent="." unique_id=1840255010 instance=ExtResource("30_le4dt")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 2090)
+
+[node name="label_even" type="Label3D" parent="." unique_id=1515503911]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "even  EUnit21"
+font_size = 40
+
+[node name="ewsp" type="Node3D" parent="." unique_id=180882686 instance=ExtResource("31_b4nov")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 2090)
+
+[node name="label_ewsp" type="Label3D" parent="." unique_id=197123508]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 2220)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ewsp  EUnit01"
+font_size = 40
+
+[node name="now2" type="Node3D" parent="." unique_id=1332910177 instance=ExtResource("32_2tqxu")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -570, 0, 2470)
+
+[node name="label_now2" type="Label3D" parent="." unique_id=64672190]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "now2  animal"
+font_size = 40
+
+[node name="now3" type="Node3D" parent="." unique_id=1840482584 instance=ExtResource("32_2tqxu")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -950, 0, 2470)
+
+[node name="label_now3" type="Label3D" parent="." unique_id=630279353]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "now3  animal"
+font_size = 40
+
+[node name="nowl" type="Node3D" parent="." unique_id=909932608 instance=ExtResource("32_2tqxu")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1330, 0, 2470)
+
+[node name="label_nowl" type="Label3D" parent="." unique_id=383453446]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nowl  animal"
+font_size = 40
+
+[node name="nssn" type="Node3D" parent="." unique_id=531842220 instance=ExtResource("33_ltq0p")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 2470)
+
+[node name="label_nssn" type="Label3D" parent="." unique_id=1976566193]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nssn"
+font_size = 40
+
+[node name="nthr" type="Node3D" parent="." unique_id=606855311 instance=ExtResource("34_ls5ko")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -2090, 0, 2470)
+
+[node name="label_nthr" type="Label3D" parent="." unique_id=1365024206]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 2600)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nthr  EUnit14"
+font_size = 40
+
+[node name="nwat" type="Node3D" parent="." unique_id=1627056665 instance=ExtResource("35_k1mwj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 2850)
+
+[node name="label_nwat" type="Label3D" parent="." unique_id=615189457]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 2980)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nwat"
+font_size = 40

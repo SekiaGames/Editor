@@ -1,0 +1,78 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Harpy/Harpy.tscn" id="1_6yrhb"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/HarpyWitch/HarpyWitch.tscn" id="2_ns6a2"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/HarpyQueen/HarpyQueen.tscn" id="3_ef2ra"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tpcxy"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_5x3k2"]
+size = Vector2(3040, 380)
+
+[node name="creep_harpy" type="Node3D" unique_id=325143711]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1615506581]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_tpcxy")
+mesh = SubResource("PlaneMesh_5x3k2")
+
+[node name="nhar" type="Node3D" parent="." unique_id=596074159 instance=ExtResource("1_6yrhb")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 190)
+
+[node name="label_nhar" type="Label3D" parent="." unique_id=1010676987]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nhar  harpy"
+font_size = 40
+
+[node name="nhrh" type="Node3D" parent="." unique_id=1890975889 instance=ExtResource("2_ns6a2")]
+transform = Transform3D(-1.7, 0, -1.4861872e-07, 0, 1.7, 0, 1.4861872e-07, 0, -1.7, -570, 0, 190)
+
+[node name="label_nhrh" type="Label3D" parent="." unique_id=1007795877]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nhrh  harpy"
+font_size = 40
+
+[node name="nhrq" type="Node3D" parent="." unique_id=1600562359 instance=ExtResource("3_ef2ra")]
+transform = Transform3D(-2.1, 0, -1.8358783e-07, 0, 2.1, 0, 1.8358783e-07, 0, -2.1, -950, 0, 190)
+
+[node name="label_nhrq" type="Label3D" parent="." unique_id=924916104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nhrq  harpy"
+font_size = 40
+
+[node name="nhrr" type="Node3D" parent="." unique_id=1456956179 instance=ExtResource("1_6yrhb")]
+transform = Transform3D(-1.7, 0, -1.4861872e-07, 0, 1.7, 0, 1.4861872e-07, 0, -1.7, -1330, 0, 190)
+
+[node name="label_nhrr" type="Label3D" parent="." unique_id=1576349565]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nhrr  harpy"
+font_size = 40
+
+[node name="nhrw" type="Node3D" parent="." unique_id=737198149 instance=ExtResource("2_ns6a2")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 190)
+
+[node name="label_nhrw" type="Label3D" parent="." unique_id=718463928]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nhrw  harpy"
+font_size = 40

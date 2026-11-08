@@ -1,0 +1,102 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OgreOneHeadedArmored/OgreOneHeadedArmored.tscn" id="1_0t45p"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OgreLord/OgreLord.tscn" id="2_hp324"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Ogre/Ogre.tscn" id="3_yybeh"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OgreMagi/OgreMagi.tscn" id="4_3pybl"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OgreOneHeaded/OgreOneHeaded.tscn" id="5_gpabg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aju61"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_840en"]
+size = Vector2(3040, 380)
+
+[node name="creep_ogre" type="Node3D" unique_id=1366603372]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=4288859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_aju61")
+mesh = SubResource("PlaneMesh_840en")
+
+[node name="noga" type="Node3D" parent="." unique_id=1089939387 instance=ExtResource("1_0t45p")]
+transform = Transform3D(-2.1, 0, -1.8358783e-07, 0, 2.1, 0, 1.8358783e-07, 0, -2.1, -190, 0, 190)
+
+[node name="label_noga" type="Label3D" parent="." unique_id=1293922102]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "noga  ogre"
+font_size = 40
+
+[node name="nogl" type="Node3D" parent="." unique_id=939532601 instance=ExtResource("2_hp324")]
+transform = Transform3D(-1.7, 0, -1.4861872e-07, 0, 1.7, 0, 1.4861872e-07, 0, -1.7, -570, 0, 190)
+
+[node name="label_nogl" type="Label3D" parent="." unique_id=1908285564]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nogl  ogre"
+font_size = 40
+
+[node name="nogm" type="Node3D" parent="." unique_id=1596220437 instance=ExtResource("3_yybeh")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -950, 0, 190)
+
+[node name="label_nogm" type="Label3D" parent="." unique_id=1201109449]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nogm  ogre"
+font_size = 40
+
+[node name="nogn" type="Node3D" parent="." unique_id=1370108369 instance=ExtResource("4_3pybl")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -1330, 0, 190)
+
+[node name="label_nogn" type="Label3D" parent="." unique_id=1101760035]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nogn  ogre"
+font_size = 40
+
+[node name="nogo" type="Node3D" parent="." unique_id=488884388 instance=ExtResource("5_gpabg")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -1710, 0, 190)
+
+[node name="label_nogo" type="Label3D" parent="." unique_id=1027392972]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nogo  ogre"
+font_size = 40
+
+[node name="nogr" type="Node3D" parent="." unique_id=1362613650 instance=ExtResource("3_yybeh")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -2090, 0, 190)
+
+[node name="label_nogr" type="Label3D" parent="." unique_id=1390146632]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nogr  ogre"
+font_size = 40
+
+[node name="nomg" type="Node3D" parent="." unique_id=1534865455 instance=ExtResource("4_3pybl")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -2470, 0, 190)
+
+[node name="label_nomg" type="Label3D" parent="." unique_id=1360467918]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nomg  ogre"
+font_size = 40

@@ -1,0 +1,102 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FurbolgElder/FurbolgElder.tscn" id="1_hwb84"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FurbolgTracker/FurbolgTracker.tscn" id="2_uxm81"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FurbolgShaman/FurbolgShaman.tscn" id="3_rkunx"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Furbolg/Furbolg.tscn" id="4_spvfw"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FurbolgPanda/FurbolgPanda.tscn" id="5_tadfj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u474u"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_c58f7"]
+size = Vector2(3040, 380)
+
+[node name="creep_furbolg" type="Node3D" unique_id=1050991469]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=723498437]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_u474u")
+mesh = SubResource("PlaneMesh_c58f7")
+
+[node name="nfra" type="Node3D" parent="." unique_id=1970611190 instance=ExtResource("1_hwb84")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -190, 0, 190)
+
+[node name="label_nfra" type="Label3D" parent="." unique_id=1076185132]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfra  furbolg"
+font_size = 40
+
+[node name="nfrb" type="Node3D" parent="." unique_id=1187212307 instance=ExtResource("2_uxm81")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -570, 0, 190)
+
+[node name="label_nfrb" type="Label3D" parent="." unique_id=2046575476]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfrb  furbolg"
+font_size = 40
+
+[node name="nfre" type="Node3D" parent="." unique_id=1928470985 instance=ExtResource("3_rkunx")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -950, 0, 190)
+
+[node name="label_nfre" type="Label3D" parent="." unique_id=1407111335]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfre  furbolg"
+font_size = 40
+
+[node name="nfrg" type="Node3D" parent="." unique_id=121928023 instance=ExtResource("4_spvfw")]
+transform = Transform3D(-1.3, 0, -1.13649605e-07, 0, 1.3, 0, 1.13649605e-07, 0, -1.3, -1330, 0, 190)
+
+[node name="label_nfrg" type="Label3D" parent="." unique_id=1076388909]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfrg  furbolg"
+font_size = 40
+
+[node name="nfrl" type="Node3D" parent="." unique_id=459125468 instance=ExtResource("4_spvfw")]
+transform = Transform3D(-1.15, 0, -1.0053619e-07, 0, 1.15, 0, 1.0053619e-07, 0, -1.15, -1710, 0, 190)
+
+[node name="label_nfrl" type="Label3D" parent="." unique_id=741078372]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfrl  furbolg"
+font_size = 40
+
+[node name="nfrp" type="Node3D" parent="." unique_id=2070725546 instance=ExtResource("5_tadfj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 190)
+
+[node name="label_nfrp" type="Label3D" parent="." unique_id=597026942]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfrp  furbolg"
+font_size = 40
+
+[node name="nfrs" type="Node3D" parent="." unique_id=52796571 instance=ExtResource("3_rkunx")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -2470, 0, 190)
+
+[node name="label_nfrs" type="Label3D" parent="." unique_id=2083349282]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfrs  furbolg"
+font_size = 40

@@ -1,0 +1,88 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/IceTrollShadowPriest/IceTrollShadowPriest.tscn" id="1_o2ayv"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/IceTroll/IceTroll.tscn" id="2_5ytwy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o57cd"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ky2a8"]
+size = Vector2(3040, 380)
+
+[node name="creep_icetroll" type="Node3D" unique_id=1376976606]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=487503288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_o57cd")
+mesh = SubResource("PlaneMesh_ky2a8")
+
+[node name="nith" type="Node3D" parent="." unique_id=1726377628 instance=ExtResource("1_o2ayv")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -190, 0, 190)
+
+[node name="label_nith" type="Label3D" parent="." unique_id=1539044666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nith  icetroll"
+font_size = 40
+
+[node name="nitp" type="Node3D" parent="." unique_id=1531950632 instance=ExtResource("1_o2ayv")]
+transform = Transform3D(-1.05, 0, -9.1793915e-08, 0, 1.05, 0, 9.1793915e-08, 0, -1.05, -570, 0, 190)
+
+[node name="label_nitp" type="Label3D" parent="." unique_id=1776108755]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nitp  icetroll"
+font_size = 40
+
+[node name="nitr" type="Node3D" parent="." unique_id=1041229995 instance=ExtResource("2_5ytwy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 190)
+
+[node name="label_nitr" type="Label3D" parent="." unique_id=2067482166]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nitr  icetroll"
+font_size = 40
+
+[node name="nits" type="Node3D" parent="." unique_id=1867703016 instance=ExtResource("2_5ytwy")]
+transform = Transform3D(-1.3, 0, -1.13649605e-07, 0, 1.3, 0, 1.13649605e-07, 0, -1.3, -1330, 0, 190)
+
+[node name="label_nits" type="Label3D" parent="." unique_id=1208086718]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nits  icetroll"
+font_size = 40
+
+[node name="nitt" type="Node3D" parent="." unique_id=260987072 instance=ExtResource("2_5ytwy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 190)
+
+[node name="label_nitt" type="Label3D" parent="." unique_id=2019493269]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nitt  icetroll"
+font_size = 40
+
+[node name="nitw" type="Node3D" parent="." unique_id=1394166437 instance=ExtResource("2_5ytwy")]
+transform = Transform3D(-1.55, 0, -1.355053e-07, 0, 1.55, 0, 1.355053e-07, 0, -1.55, -2090, 0, 190)
+
+[node name="label_nitw" type="Label3D" parent="." unique_id=1507805333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nitw  icetroll"
+font_size = 40

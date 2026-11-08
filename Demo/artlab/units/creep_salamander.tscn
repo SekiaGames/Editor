@@ -1,0 +1,77 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ThunderLizardVizier/ThunderLizardVizier.tscn" id="1_3ua8u"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ThunderLizardSalamander/ThunderLizardSalamander.tscn" id="2_pur2r"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rjavb"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_cade7"]
+size = Vector2(3040, 380)
+
+[node name="creep_salamander" type="Node3D" unique_id=1936771362]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1598886225]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_rjavb")
+mesh = SubResource("PlaneMesh_cade7")
+
+[node name="ndsa" type="Node3D" parent="." unique_id=915822086 instance=ExtResource("1_3ua8u")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -190, 0, 190)
+
+[node name="label_ndsa" type="Label3D" parent="." unique_id=1032211319]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndsa  salamander"
+font_size = 40
+
+[node name="nslh" type="Node3D" parent="." unique_id=1433977505 instance=ExtResource("2_pur2r")]
+transform = Transform3D(-0.6, 0, -5.2453668e-08, 0, 0.6, 0, 5.2453668e-08, 0, -0.6, -570, 0, 190)
+
+[node name="label_nslh" type="Label3D" parent="." unique_id=1368225273]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nslh  salamander"
+font_size = 40
+
+[node name="nsll" type="Node3D" parent="." unique_id=767773655 instance=ExtResource("2_pur2r")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -950, 0, 190)
+
+[node name="label_nsll" type="Label3D" parent="." unique_id=563050038]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsll  salamander"
+font_size = 40
+
+[node name="nslr" type="Node3D" parent="." unique_id=961934575 instance=ExtResource("2_pur2r")]
+transform = Transform3D(-0.95, 0, -8.305164e-08, 0, 0.95, 0, 8.305164e-08, 0, -0.95, -1330, 0, 190)
+
+[node name="label_nslr" type="Label3D" parent="." unique_id=2135164757]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nslr  salamander"
+font_size = 40
+
+[node name="nslv" type="Node3D" parent="." unique_id=54941929 instance=ExtResource("1_3ua8u")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -1710, 0, 190)
+
+[node name="label_nslv" type="Label3D" parent="." unique_id=867089917]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nslv  salamander"
+font_size = 40

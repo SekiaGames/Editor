@@ -1,0 +1,100 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Lobstrokkblue/Lobstrokkblue.tscn" id="1_3owt5"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Lobstrokkgreen/Lobstrokkgreen.tscn" id="2_x7g0g"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Lobstrokkred/Lobstrokkred.tscn" id="3_bf6hb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ph62p"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ih4j1"]
+size = Vector2(3040, 380)
+
+[node name="creep_lobstrokk" type="Node3D" unique_id=71587906]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=498727508]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_ph62p")
+mesh = SubResource("PlaneMesh_ih4j1")
+
+[node name="nlds" type="Node3D" parent="." unique_id=317655075 instance=ExtResource("1_3owt5")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -190, 0, 190)
+
+[node name="label_nlds" type="Label3D" parent="." unique_id=1953500482]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nlds  lobstrokk"
+font_size = 40
+
+[node name="nlkl" type="Node3D" parent="." unique_id=641162342 instance=ExtResource("2_x7g0g")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_nlkl" type="Label3D" parent="." unique_id=588560699]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nlkl  lobstrokk"
+font_size = 40
+
+[node name="nlpd" type="Node3D" parent="." unique_id=1473181475 instance=ExtResource("3_bf6hb")]
+transform = Transform3D(-0.6, 0, -5.2453668e-08, 0, 0.6, 0, 5.2453668e-08, 0, -0.6, -950, 0, 190)
+
+[node name="label_nlpd" type="Label3D" parent="." unique_id=1789867718]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nlpd  lobstrokk"
+font_size = 40
+
+[node name="nlpr" type="Node3D" parent="." unique_id=1647572266 instance=ExtResource("3_bf6hb")]
+transform = Transform3D(-0.55, 0, -4.8082526e-08, 0, 0.55, 0, 4.8082526e-08, 0, -0.55, -1330, 0, 190)
+
+[node name="label_nlpr" type="Label3D" parent="." unique_id=1526648826]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nlpr  lobstrokk"
+font_size = 40
+
+[node name="nlps" type="Node3D" parent="." unique_id=2005016010 instance=ExtResource("3_bf6hb")]
+transform = Transform3D(-0.55, 0, -4.8082526e-08, 0, 0.55, 0, 4.8082526e-08, 0, -0.55, -1710, 0, 190)
+
+[node name="label_nlps" type="Label3D" parent="." unique_id=1021354984]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nlps  lobstrokk"
+font_size = 40
+
+[node name="nlsn" type="Node3D" parent="." unique_id=841080983 instance=ExtResource("3_bf6hb")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -2090, 0, 190)
+
+[node name="label_nlsn" type="Label3D" parent="." unique_id=1722107805]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nlsn  lobstrokk"
+font_size = 40
+
+[node name="nltc" type="Node3D" parent="." unique_id=2144795133 instance=ExtResource("1_3owt5")]
+transform = Transform3D(-0.57, 0, -4.9830984e-08, 0, 0.57, 0, 4.9830984e-08, 0, -0.57, -2470, 0, 190)
+
+[node name="label_nltc" type="Label3D" parent="." unique_id=961338824]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nltc  lobstrokk"
+font_size = 40

@@ -1,0 +1,77 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/Demoness/Demoness.tscn" id="1_iyrx7"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/demon/DemonessBlue/DemonessBlue.tscn" id="2_hne6v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vyspa"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_baqql"]
+size = Vector2(3040, 380)
+
+[node name="creep_succubus" type="Node3D" unique_id=1294338310]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1495223398]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_vyspa")
+mesh = SubResource("PlaneMesh_baqql")
+
+[node name="ndqn" type="Node3D" parent="." unique_id=1424342159 instance=ExtResource("1_iyrx7")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 190)
+
+[node name="label_ndqn" type="Label3D" parent="." unique_id=540238054]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndqn  succubus"
+font_size = 40
+
+[node name="ndqp" type="Node3D" parent="." unique_id=1400631841 instance=ExtResource("2_hne6v")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -570, 0, 190)
+
+[node name="label_ndqp" type="Label3D" parent="." unique_id=1837651887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndqp  succubus"
+font_size = 40
+
+[node name="ndqs" type="Node3D" parent="." unique_id=787983584 instance=ExtResource("2_hne6v")]
+transform = Transform3D(-1.5, 0, -1.3113416e-07, 0, 1.5, 0, 1.3113416e-07, 0, -1.5, -950, 0, 190)
+
+[node name="label_ndqs" type="Label3D" parent="." unique_id=776719558]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndqs  succubus"
+font_size = 40
+
+[node name="ndqt" type="Node3D" parent="." unique_id=1348657326 instance=ExtResource("1_iyrx7")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -1330, 0, 190)
+
+[node name="label_ndqt" type="Label3D" parent="." unique_id=325189837]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndqt  succubus"
+font_size = 40
+
+[node name="ndqv" type="Node3D" parent="." unique_id=2068793313 instance=ExtResource("2_hne6v")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1710, 0, 190)
+
+[node name="label_ndqv" type="Label3D" parent="." unique_id=1475155557]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndqv  succubus"
+font_size = 40

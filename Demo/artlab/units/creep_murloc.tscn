@@ -1,0 +1,91 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/MurlocFlesheater/MurlocFlesheater.tscn" id="1_ciyqv"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/MurlocMutant/MurlocMutant.tscn" id="2_nncw5"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Murloc/Murloc.tscn" id="3_1ix4t"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/MurlocNightcrawler/MurlocNightcrawler.tscn" id="4_2cm2i"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/MurlocWarrior/MurlocWarrior.tscn" id="5_2be87"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dfg7n"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_jjl8u"]
+size = Vector2(3040, 380)
+
+[node name="creep_murloc" type="Node3D" unique_id=931595860]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=2051537184]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_dfg7n")
+mesh = SubResource("PlaneMesh_jjl8u")
+
+[node name="nmfs" type="Node3D" parent="." unique_id=1947530003 instance=ExtResource("1_ciyqv")]
+transform = Transform3D(-1.55, 0, -1.355053e-07, 0, 1.55, 0, 1.355053e-07, 0, -1.55, -190, 0, 190)
+
+[node name="label_nmfs" type="Label3D" parent="." unique_id=792884023]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmfs  murloc"
+font_size = 40
+
+[node name="nmmu" type="Node3D" parent="." unique_id=541274604 instance=ExtResource("2_nncw5")]
+transform = Transform3D(-2, 0, -1.7484555e-07, 0, 2, 0, 1.7484555e-07, 0, -2, -570, 0, 190)
+
+[node name="label_nmmu" type="Label3D" parent="." unique_id=1788430789]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmmu  murloc"
+font_size = 40
+
+[node name="nmpg" type="Node3D" parent="." unique_id=806394889 instance=ExtResource("2_nncw5")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 190)
+
+[node name="label_nmpg" type="Label3D" parent="." unique_id=1984756839]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmpg  murloc"
+font_size = 40
+
+[node name="nmrl" type="Node3D" parent="." unique_id=1782709106 instance=ExtResource("3_1ix4t")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1330, 0, 190)
+
+[node name="label_nmrl" type="Label3D" parent="." unique_id=525866221]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmrl  murloc"
+font_size = 40
+
+[node name="nmrm" type="Node3D" parent="." unique_id=1154812530 instance=ExtResource("4_2cm2i")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -1710, 0, 190)
+
+[node name="label_nmrm" type="Label3D" parent="." unique_id=1700608611]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmrm  murloc"
+font_size = 40
+
+[node name="nmrr" type="Node3D" parent="." unique_id=2038766344 instance=ExtResource("5_2be87")]
+transform = Transform3D(-1.3, 0, -1.13649605e-07, 0, 1.3, 0, 1.13649605e-07, 0, -1.3, -2090, 0, 190)
+
+[node name="label_nmrr" type="Label3D" parent="." unique_id=302913475]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmrr  murloc"
+font_size = 40

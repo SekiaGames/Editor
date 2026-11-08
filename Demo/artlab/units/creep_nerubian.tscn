@@ -1,0 +1,89 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Nerubian/Nerubian.tscn" id="1_q4w5m"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/NerubianSpiderLord/NerubianSpiderLord.tscn" id="2_45mju"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/NerubianQueen/NerubianQueen.tscn" id="3_k51p0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hrjjt"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_66g02"]
+size = Vector2(3040, 380)
+
+[node name="creep_nerubian" type="Node3D" unique_id=1820947222]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1858826133]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_hrjjt")
+mesh = SubResource("PlaneMesh_66g02")
+
+[node name="nnwa" type="Node3D" parent="." unique_id=1158506300 instance=ExtResource("1_q4w5m")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -190, 0, 190)
+
+[node name="label_nnwa" type="Label3D" parent="." unique_id=334301348]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nnwa  nerubian"
+font_size = 40
+
+[node name="nnwl" type="Node3D" parent="." unique_id=687247867 instance=ExtResource("2_45mju")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_nnwl" type="Label3D" parent="." unique_id=248620655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nnwl  nerubian"
+font_size = 40
+
+[node name="nnwq" type="Node3D" parent="." unique_id=622908950 instance=ExtResource("3_k51p0")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -950, 0, 190)
+
+[node name="label_nnwq" type="Label3D" parent="." unique_id=1069640432]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nnwq  nerubian"
+font_size = 40
+
+[node name="nnwr" type="Node3D" parent="." unique_id=1329306818 instance=ExtResource("3_k51p0")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -1330, 0, 190)
+
+[node name="label_nnwr" type="Label3D" parent="." unique_id=1742757110]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nnwr  nerubian"
+font_size = 40
+
+[node name="nnws" type="Node3D" parent="." unique_id=510103211 instance=ExtResource("2_45mju")]
+transform = Transform3D(-1.55, 0, -1.355053e-07, 0, 1.55, 0, 1.355053e-07, 0, -1.55, -1710, 0, 190)
+
+[node name="label_nnws" type="Label3D" parent="." unique_id=1537830656]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nnws  nerubian"
+font_size = 40
+
+[node name="nspd" type="Node3D" parent="." unique_id=650734877 instance=ExtResource("1_q4w5m")]
+transform = Transform3D(-0.6, 0, -5.2453668e-08, 0, 0.6, 0, 5.2453668e-08, 0, -0.6, -2090, 0, 190)
+
+[node name="label_nspd" type="Label3D" parent="." unique_id=1194038621]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nspd  nerubian"
+font_size = 40

@@ -1,0 +1,90 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/MurgulBloodGill/MurgulBloodGill.tscn" id="1_wu3v0"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/MurgulTideWarrior/MurgulTideWarrior.tscn" id="2_o4d2i"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/MurgulReaver/MurgulReaver.tscn" id="3_1fb5t"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/MurgulShadowCaster/MurgulShadowCaster.tscn" id="4_iw1bn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y5rpv"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_n4m6k"]
+size = Vector2(3040, 380)
+
+[node name="creep_murgul" type="Node3D" unique_id=1624374890]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=915564563]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_y5rpv")
+mesh = SubResource("PlaneMesh_n4m6k")
+
+[node name="nmbg" type="Node3D" parent="." unique_id=911839060 instance=ExtResource("1_wu3v0")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -190, 0, 190)
+
+[node name="label_nmbg" type="Label3D" parent="." unique_id=1455677197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmbg  murgul"
+font_size = 40
+
+[node name="nmcf" type="Node3D" parent="." unique_id=603530691 instance=ExtResource("2_o4d2i")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -570, 0, 190)
+
+[node name="label_nmcf" type="Label3D" parent="." unique_id=1069854127]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmcf  murgul"
+font_size = 40
+
+[node name="nmrv" type="Node3D" parent="." unique_id=823242387 instance=ExtResource("3_1fb5t")]
+transform = Transform3D(-1.5, 0, -1.3113416e-07, 0, 1.5, 0, 1.3113416e-07, 0, -1.5, -950, 0, 190)
+
+[node name="label_nmrv" type="Label3D" parent="." unique_id=768340036]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmrv  murgul"
+font_size = 40
+
+[node name="nmsc" type="Node3D" parent="." unique_id=1153413117 instance=ExtResource("4_iw1bn")]
+transform = Transform3D(-1.55, 0, -1.355053e-07, 0, 1.55, 0, 1.355053e-07, 0, -1.55, -1330, 0, 190)
+
+[node name="label_nmsc" type="Label3D" parent="." unique_id=1995682718]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmsc  murgul"
+font_size = 40
+
+[node name="nmsn" type="Node3D" parent="." unique_id=182163611 instance=ExtResource("4_iw1bn")]
+transform = Transform3D(-1.1, 0, -9.616505e-08, 0, 1.1, 0, 9.616505e-08, 0, -1.1, -1710, 0, 190)
+
+[node name="label_nmsn" type="Label3D" parent="." unique_id=1998890489]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmsn  murgul"
+font_size = 40
+
+[node name="nmtw" type="Node3D" parent="." unique_id=997657756 instance=ExtResource("2_o4d2i")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 190)
+
+[node name="label_nmtw" type="Label3D" parent="." unique_id=312768183]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nmtw  murgul"
+font_size = 40

@@ -1,0 +1,90 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SpiderBlue/SpiderBlue.tscn" id="1_tyl25"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Spider/Spider.tscn" id="2_dxjtr"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SpiderBlack/SpiderBlack.tscn" id="3_1goyy"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SpiderGreen/SpiderGreen.tscn" id="4_ta0d8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kcdrd"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_kv8fn"]
+size = Vector2(3040, 380)
+
+[node name="creep_giantspider" type="Node3D" unique_id=875349092]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=2007740111]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_kcdrd")
+mesh = SubResource("PlaneMesh_kv8fn")
+
+[node name="nsbm" type="Node3D" parent="." unique_id=299208474 instance=ExtResource("1_tyl25")]
+transform = Transform3D(-1.5, 0, -1.3113416e-07, 0, 1.5, 0, 1.3113416e-07, 0, -1.5, -190, 0, 190)
+
+[node name="label_nsbm" type="Label3D" parent="." unique_id=850771402]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsbm  giantspider"
+font_size = 40
+
+[node name="nsgt" type="Node3D" parent="." unique_id=2135896318 instance=ExtResource("2_dxjtr")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -570, 0, 190)
+
+[node name="label_nsgt" type="Label3D" parent="." unique_id=674763989]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsgt  giantspider"
+font_size = 40
+
+[node name="nspb" type="Node3D" parent="." unique_id=537870984 instance=ExtResource("3_1goyy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -950, 0, 190)
+
+[node name="label_nspb" type="Label3D" parent="." unique_id=2019356025]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nspb  giantspider"
+font_size = 40
+
+[node name="nspg" type="Node3D" parent="." unique_id=1673840791 instance=ExtResource("4_ta0d8")]
+transform = Transform3D(-0.6, 0, -5.2453668e-08, 0, 0.6, 0, 5.2453668e-08, 0, -0.6, -1330, 0, 190)
+
+[node name="label_nspg" type="Label3D" parent="." unique_id=182543419]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nspg  giantspider"
+font_size = 40
+
+[node name="nspr" type="Node3D" parent="." unique_id=733753654 instance=ExtResource("2_dxjtr")]
+transform = Transform3D(-0.5, 0, -4.371139e-08, 0, 0.5, 0, 4.371139e-08, 0, -0.5, -1710, 0, 190)
+
+[node name="label_nspr" type="Label3D" parent="." unique_id=13674109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nspr  giantspider"
+font_size = 40
+
+[node name="nssp" type="Node3D" parent="." unique_id=1871030000 instance=ExtResource("1_tyl25")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 190)
+
+[node name="label_nssp" type="Label3D" parent="." unique_id=1730812183]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nssp  giantspider"
+font_size = 40

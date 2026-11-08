@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://Demo/shader/water_map.gdshader" id="1_bmpxq"]
+[ext_resource type="Texture2D" path="res://Demo/BootyBay/atlas/water.res" id="2_d0rnq"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_bmpxq")
+shader_parameter/water_texture = ExtResource("2_d0rnq")
+shader_parameter/water_layers = 45.0
+shader_parameter/frame = 0.0

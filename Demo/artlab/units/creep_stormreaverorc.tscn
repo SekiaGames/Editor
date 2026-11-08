@@ -1,0 +1,65 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/OrcWarlock/OrcWarlock.tscn" id="1_uyv5a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gmatn"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_156lj"]
+size = Vector2(3040, 380)
+
+[node name="creep_stormreaverorc" type="Node3D" unique_id=1411780474]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=766770901]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_gmatn")
+mesh = SubResource("PlaneMesh_156lj")
+
+[node name="nsra" type="Node3D" parent="." unique_id=1967144111 instance=ExtResource("1_uyv5a")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -190, 0, 190)
+
+[node name="label_nsra" type="Label3D" parent="." unique_id=388946791]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsra  stormreaverorc"
+font_size = 40
+
+[node name="nsrh" type="Node3D" parent="." unique_id=1235706390 instance=ExtResource("1_uyv5a")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_nsrh" type="Label3D" parent="." unique_id=114748966]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsrh  stormreaverorc"
+font_size = 40
+
+[node name="nsrn" type="Node3D" parent="." unique_id=564128975 instance=ExtResource("1_uyv5a")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -950, 0, 190)
+
+[node name="label_nsrn" type="Label3D" parent="." unique_id=1517642470]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsrn  stormreaverorc"
+font_size = 40
+
+[node name="nsrw" type="Node3D" parent="." unique_id=1514456158 instance=ExtResource("1_uyv5a")]
+transform = Transform3D(-1.5, 0, -1.3113416e-07, 0, 1.5, 0, 1.3113416e-07, 0, -1.5, -1330, 0, 190)
+
+[node name="label_nsrw" type="Label3D" parent="." unique_id=520190235]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsrw  stormreaverorc"
+font_size = 40

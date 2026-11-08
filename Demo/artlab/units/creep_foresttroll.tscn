@@ -1,0 +1,89 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ForestTrollShadowPriest/ForestTrollShadowPriest.tscn" id="1_sqjc7"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ForestTroll/ForestTroll.tscn" id="2_21ial"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/ForestTrollTrapper/ForestTrollTrapper.tscn" id="3_xk7vi"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2fcv2"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_6q0la"]
+size = Vector2(3040, 380)
+
+[node name="creep_foresttroll" type="Node3D" unique_id=527365478]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=270726422]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_2fcv2")
+mesh = SubResource("PlaneMesh_6q0la")
+
+[node name="nfsh" type="Node3D" parent="." unique_id=125365361 instance=ExtResource("1_sqjc7")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -190, 0, 190)
+
+[node name="label_nfsh" type="Label3D" parent="." unique_id=1317868009]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfsh  foresttroll"
+font_size = 40
+
+[node name="nfsp" type="Node3D" parent="." unique_id=576315396 instance=ExtResource("1_sqjc7")]
+transform = Transform3D(-1.05, 0, -9.1793915e-08, 0, 1.05, 0, 9.1793915e-08, 0, -1.05, -570, 0, 190)
+
+[node name="label_nfsp" type="Label3D" parent="." unique_id=2005087255]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfsp  foresttroll"
+font_size = 40
+
+[node name="nftb" type="Node3D" parent="." unique_id=1884242334 instance=ExtResource("2_21ial")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -950, 0, 190)
+
+[node name="label_nftb" type="Label3D" parent="." unique_id=110519899]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nftb  foresttroll"
+font_size = 40
+
+[node name="nftk" type="Node3D" parent="." unique_id=921710469 instance=ExtResource("3_xk7vi")]
+transform = Transform3D(-1.55, 0, -1.355053e-07, 0, 1.55, 0, 1.355053e-07, 0, -1.55, -1330, 0, 190)
+
+[node name="label_nftk" type="Label3D" parent="." unique_id=2018447247]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nftk  foresttroll"
+font_size = 40
+
+[node name="nftr" type="Node3D" parent="." unique_id=1790434096 instance=ExtResource("2_21ial")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 190)
+
+[node name="label_nftr" type="Label3D" parent="." unique_id=908400777]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nftr  foresttroll"
+font_size = 40
+
+[node name="nftt" type="Node3D" parent="." unique_id=343017815 instance=ExtResource("3_xk7vi")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 190)
+
+[node name="label_nftt" type="Label3D" parent="." unique_id=925361370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nftt  foresttroll"
+font_size = 40

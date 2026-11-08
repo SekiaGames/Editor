@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://Demo/shader/terrain_map.gdshader" id="1_dmxxs"]
+[ext_resource type="Texture2D" path="res://Demo/artlab/terrain/tiles/shared/ground_atlas.res" id="2_nwhi8"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_dmxxs")
+shader_parameter/ground_texture = ExtResource("2_nwhi8")
+shader_parameter/ground_layers = 129.0
+shader_parameter/lighting_enabled = true

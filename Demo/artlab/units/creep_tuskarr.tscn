@@ -1,0 +1,100 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/tuskarRanged/tuskarRanged.tscn" id="1_l1l5c"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/tuskarLord/tuskarLord.tscn" id="2_cjsf8"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/tuskar/tuskar.tscn" id="3_ayo3f"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kqmoh"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_go6xq"]
+size = Vector2(3040, 380)
+
+[node name="creep_tuskarr" type="Node3D" unique_id=1794936832]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=470972270]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_kqmoh")
+mesh = SubResource("PlaneMesh_go6xq")
+
+[node name="ntka" type="Node3D" parent="." unique_id=563616359 instance=ExtResource("1_l1l5c")]
+transform = Transform3D(-0.75, 0, -6.556708e-08, 0, 0.75, 0, 6.556708e-08, 0, -0.75, -190, 0, 190)
+
+[node name="label_ntka" type="Label3D" parent="." unique_id=990872868]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntka  tuskarr"
+font_size = 40
+
+[node name="ntkc" type="Node3D" parent="." unique_id=505761960 instance=ExtResource("2_cjsf8")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -570, 0, 190)
+
+[node name="label_ntkc" type="Label3D" parent="." unique_id=1253493995]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntkc  tuskarr"
+font_size = 40
+
+[node name="ntkf" type="Node3D" parent="." unique_id=1183485633 instance=ExtResource("3_ayo3f")]
+transform = Transform3D(-0.75, 0, -6.556708e-08, 0, 0.75, 0, 6.556708e-08, 0, -0.75, -950, 0, 190)
+
+[node name="label_ntkf" type="Label3D" parent="." unique_id=942241783]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntkf  tuskarr"
+font_size = 40
+
+[node name="ntkh" type="Node3D" parent="." unique_id=705045343 instance=ExtResource("2_cjsf8")]
+transform = Transform3D(-0.75, 0, -6.556708e-08, 0, 0.75, 0, 6.556708e-08, 0, -0.75, -1330, 0, 190)
+
+[node name="label_ntkh" type="Label3D" parent="." unique_id=890040064]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntkh  tuskarr"
+font_size = 40
+
+[node name="ntks" type="Node3D" parent="." unique_id=506112367 instance=ExtResource("1_l1l5c")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1710, 0, 190)
+
+[node name="label_ntks" type="Label3D" parent="." unique_id=66878471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntks  tuskarr"
+font_size = 40
+
+[node name="ntkt" type="Node3D" parent="." unique_id=659980148 instance=ExtResource("1_l1l5c")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 190)
+
+[node name="label_ntkt" type="Label3D" parent="." unique_id=2006085462]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntkt  tuskarr"
+font_size = 40
+
+[node name="ntkw" type="Node3D" parent="." unique_id=194158225 instance=ExtResource("2_cjsf8")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2470, 0, 190)
+
+[node name="label_ntkw" type="Label3D" parent="." unique_id=953422076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntkw  tuskarr"
+font_size = 40

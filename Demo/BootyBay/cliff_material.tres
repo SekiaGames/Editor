@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://Demo/shader/cliff_map.gdshader" id="1_o11hg"]
+[ext_resource type="Texture2D" path="res://Demo/BootyBay/atlas/cliff.res" id="2_trua0"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_o11hg")
+shader_parameter/cliff_texture = ExtResource("2_trua0")
+shader_parameter/cliff_layers = 2.0
+shader_parameter/lighting_enabled = true

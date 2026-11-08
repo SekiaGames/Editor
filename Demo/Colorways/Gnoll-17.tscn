@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Gnoll/Gnoll.tscn" id="1_model"]
+[ext_resource type="Shader" path="res://assets/shaders/war3_model_opaque.gdshader" id="2_shader"]
+[ext_resource type="Texture2D" path="res://assets/converted/Textures/gnoll.png" id="3_detail"]
+
+[sub_resource type="ShaderMaterial" id="Team17"]
+shader = ExtResource("2_shader")
+shader_parameter/use_base_texture = false
+shader_parameter/use_team_color = true
+shader_parameter/team_color = Color(0.9490, 0.1882, 0.3804, 1)
+shader_parameter/use_detail = true
+shader_parameter/detail_texture = ExtResource("3_detail")
+
+[node name="Gnoll17" type="Node3D"]
+scale = Vector3(0.01, 0.01, 0.01)
+
+[node name="Gnoll" parent="." instance=ExtResource("1_model")]
+
+[node name="geoset1" parent="Gnoll/Model/Skeleton3D"]
+surface_material_override/0 = SubResource("Team17")
+
+[node name="geoset2" parent="Gnoll/Model/Skeleton3D"]
+surface_material_override/0 = SubResource("Team17")
+
+[editable path="Gnoll"]
+
+[editable path="Gnoll/Model"]

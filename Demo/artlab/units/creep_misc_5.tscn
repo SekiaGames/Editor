@@ -1,0 +1,184 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/other/DranaiAkama/DranaiAkama.tscn" id="1_1qxfp"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/orc/catapult/catapult.tscn" id="2_1wow4"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/other/DalaranMutant/DalaranMutant.tscn" id="3_rcjdc"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/other/DalaranReject/DalaranReject.tscn" id="4_fdm0w"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/other/FleshGolem/FleshGolem.tscn" id="5_blj21"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/FelstalkerPurple/FelstalkerPurple.tscn" id="6_dmsex"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/MurgulTideWarrior/MurgulTideWarrior.tscn" id="7_0fawa"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/Unbroken/Unbroken.tscn" id="8_aft66"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/GolemStatue/GolemStatue.tscn" id="9_c4qvh"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/GoblinZeppelin/GoblinZeppelin.tscn" id="10_bqg3c"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t0edy"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_x81vx"]
+size = Vector2(3040, 760)
+
+[node name="creep_misc_5" type="Node3D" unique_id=1982549426]
+metadata/map_width = 8
+metadata/map_height = 2
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 380)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=59479881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 380)
+material_override = SubResource("StandardMaterial3D_t0edy")
+mesh = SubResource("PlaneMesh_x81vx")
+
+[node name="Naka" type="Node3D" parent="." unique_id=329418817 instance=ExtResource("1_1qxfp")]
+transform = Transform3D(-1.5, 0, -1.3113416e-07, 0, 1.5, 0, 1.3113416e-07, 0, -1.5, -190, 0, 190)
+
+[node name="label_Naka" type="Label3D" parent="." unique_id=1270162882]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "Naka"
+font_size = 40
+
+[node name="ncat" type="Node3D" parent="." unique_id=1796970555 instance=ExtResource("2_1wow4")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_ncat" type="Label3D" parent="." unique_id=825858791]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ncat"
+font_size = 40
+
+[node name="ndmu" type="Node3D" parent="." unique_id=198001787 instance=ExtResource("3_rcjdc")]
+transform = Transform3D(-1.75, 0, -1.5298986e-07, 0, 1.75, 0, 1.5298986e-07, 0, -1.75, -950, 0, 190)
+
+[node name="label_ndmu" type="Label3D" parent="." unique_id=2007704062]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndmu"
+font_size = 40
+
+[node name="ndrj" type="Node3D" parent="." unique_id=1936343689 instance=ExtResource("4_fdm0w")]
+transform = Transform3D(-1.15, 0, -1.0053619e-07, 0, 1.15, 0, 1.0053619e-07, 0, -1.15, -1330, 0, 190)
+
+[node name="label_ndrj" type="Label3D" parent="." unique_id=259375559]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ndrj"
+font_size = 40
+
+[node name="nfgl" type="Node3D" parent="." unique_id=685283999 instance=ExtResource("5_blj21")]
+transform = Transform3D(-1.75, 0, -1.5298986e-07, 0, 1.75, 0, 1.5298986e-07, 0, -1.75, -1710, 0, 190)
+
+[node name="label_nfgl" type="Label3D" parent="." unique_id=1409001185]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nfgl"
+font_size = 40
+
+[node name="nsw1" type="Node3D" parent="." unique_id=1063413124 instance=ExtResource("6_dmsex")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -2090, 0, 190)
+
+[node name="label_nsw1" type="Label3D" parent="." unique_id=1631021954]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsw1  felstalkersum"
+font_size = 40
+
+[node name="nsw2" type="Node3D" parent="." unique_id=1015516810 instance=ExtResource("6_dmsex")]
+transform = Transform3D(-1.15, 0, -1.0053619e-07, 0, 1.15, 0, 1.0053619e-07, 0, -1.15, -2470, 0, 190)
+
+[node name="label_nsw2" type="Label3D" parent="." unique_id=1710386115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2470, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsw2  felstalkersum"
+font_size = 40
+
+[node name="nsw3" type="Node3D" parent="." unique_id=100548183 instance=ExtResource("6_dmsex")]
+transform = Transform3D(-1.4, 0, -1.2239188e-07, 0, 1.4, 0, 1.2239188e-07, 0, -1.4, -2850, 0, 190)
+
+[node name="label_nsw3" type="Label3D" parent="." unique_id=72276931]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2850, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsw3  felstalkersum"
+font_size = 40
+
+[node name="ntws" type="Node3D" parent="." unique_id=102324318 instance=ExtResource("7_0fawa")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 570)
+
+[node name="label_ntws" type="Label3D" parent="." unique_id=685211147]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntws  wateryminion"
+font_size = 40
+
+[node name="nubk" type="Node3D" parent="." unique_id=2079002123 instance=ExtResource("8_aft66")]
+transform = Transform3D(-0.55, 0, -4.8082526e-08, 0, 0.55, 0, 4.8082526e-08, 0, -0.55, -570, 0, 570)
+
+[node name="label_nubk" type="Label3D" parent="." unique_id=1114454182]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nubk  unbroken"
+font_size = 40
+
+[node name="nubr" type="Node3D" parent="." unique_id=1667614998 instance=ExtResource("8_aft66")]
+transform = Transform3D(-0.65, 0, -5.6824803e-08, 0, 0.65, 0, 5.6824803e-08, 0, -0.65, -950, 0, 570)
+
+[node name="label_nubr" type="Label3D" parent="." unique_id=458560743]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nubr  unbroken"
+font_size = 40
+
+[node name="nubw" type="Node3D" parent="." unique_id=1742390169 instance=ExtResource("8_aft66")]
+transform = Transform3D(-0.7, 0, -6.119594e-08, 0, 0.7, 0, 6.119594e-08, 0, -0.7, -1330, 0, 570)
+
+[node name="label_nubw" type="Label3D" parent="." unique_id=1174184454]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nubw  unbroken"
+font_size = 40
+
+[node name="nwrg" type="Node3D" parent="." unique_id=632859555 instance=ExtResource("9_c4qvh")]
+transform = Transform3D(-1.25, 0, -1.09278474e-07, 0, 1.25, 0, 1.09278474e-07, 0, -1.25, -1710, 0, 570)
+
+[node name="label_nwrg" type="Label3D" parent="." unique_id=1929350997]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nwrg  golemb"
+font_size = 40
+
+[node name="nzep" type="Node3D" parent="." unique_id=1852477164 instance=ExtResource("10_bqg3c")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2090, 0, 570)
+
+[node name="label_nzep" type="Label3D" parent="." unique_id=1546214989]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2090, 120, 700)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nzep  goblin"
+font_size = 40

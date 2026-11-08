@@ -1,0 +1,125 @@
+[gd_scene load_steps=30 format=3]
+
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-00.tscn" id="p0"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-01.tscn" id="p1"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-02.tscn" id="p2"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-03.tscn" id="p3"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-04.tscn" id="p4"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-05.tscn" id="p5"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-06.tscn" id="p6"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-07.tscn" id="p7"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-08.tscn" id="p8"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-09.tscn" id="p9"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-10.tscn" id="p10"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-11.tscn" id="p11"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-12.tscn" id="p12"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-13.tscn" id="p13"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-14.tscn" id="p14"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-15.tscn" id="p15"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-16.tscn" id="p16"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-17.tscn" id="p17"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-18.tscn" id="p18"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-19.tscn" id="p19"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-20.tscn" id="p20"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-21.tscn" id="p21"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-22.tscn" id="p22"]
+[ext_resource type="PackedScene" path="res://Demo/Colorways/Gnoll-23.tscn" id="p23"]
+
+[sub_resource type="Environment" id="Env"]
+background_mode = 1
+background_color = Color(0.13, 0.14, 0.16, 1)
+
+[sub_resource type="PlaneMesh" id="Ground"]
+size = Vector2(30, 30)
+
+[sub_resource type="StandardMaterial3D" id="GroundMat"]
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+roughness = 1.0
+
+[node name="Colorways" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Env")
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01, 0)
+mesh = SubResource("Ground")
+material_override = SubResource("GroundMat")
+
+[node name="Gnoll00" parent="." instance=ExtResource("p0")]
+position = Vector3(-4.25, 0, -3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll01" parent="." instance=ExtResource("p1")]
+position = Vector3(-2.55, 0, -3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll02" parent="." instance=ExtResource("p2")]
+position = Vector3(-0.85, 0, -3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll03" parent="." instance=ExtResource("p3")]
+position = Vector3(0.85, 0, -3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll04" parent="." instance=ExtResource("p4")]
+position = Vector3(2.55, 0, -3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll05" parent="." instance=ExtResource("p5")]
+position = Vector3(4.25, 0, -3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll06" parent="." instance=ExtResource("p6")]
+position = Vector3(-4.25, 0, -1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll07" parent="." instance=ExtResource("p7")]
+position = Vector3(-2.55, 0, -1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll08" parent="." instance=ExtResource("p8")]
+position = Vector3(-0.85, 0, -1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll09" parent="." instance=ExtResource("p9")]
+position = Vector3(0.85, 0, -1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll10" parent="." instance=ExtResource("p10")]
+position = Vector3(2.55, 0, -1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll11" parent="." instance=ExtResource("p11")]
+position = Vector3(4.25, 0, -1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll12" parent="." instance=ExtResource("p12")]
+position = Vector3(-4.25, 0, 1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll13" parent="." instance=ExtResource("p13")]
+position = Vector3(-2.55, 0, 1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll14" parent="." instance=ExtResource("p14")]
+position = Vector3(-0.85, 0, 1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll15" parent="." instance=ExtResource("p15")]
+position = Vector3(0.85, 0, 1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll16" parent="." instance=ExtResource("p16")]
+position = Vector3(2.55, 0, 1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll17" parent="." instance=ExtResource("p17")]
+position = Vector3(4.25, 0, 1.20)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll18" parent="." instance=ExtResource("p18")]
+position = Vector3(-4.25, 0, 3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll19" parent="." instance=ExtResource("p19")]
+position = Vector3(-2.55, 0, 3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll20" parent="." instance=ExtResource("p20")]
+position = Vector3(-0.85, 0, 3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll21" parent="." instance=ExtResource("p21")]
+position = Vector3(0.85, 0, 3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll22" parent="." instance=ExtResource("p22")]
+position = Vector3(2.55, 0, 3.60)
+rotation = Vector3(0, 1.5708, 0)
+[node name="Gnoll23" parent="." instance=ExtResource("p23")]
+position = Vector3(4.25, 0, 3.60)
+rotation = Vector3(0, 1.5708, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.9304, -0.3665, 0, 0.3665, 0.9304, 0, 6, 14)
+current = true
+fov = 50.0

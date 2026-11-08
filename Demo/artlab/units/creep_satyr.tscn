@@ -1,0 +1,78 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/SatyrTrickster/SatyrTrickster.tscn" id="1_rxsk3"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/satyrhellcaller/satyrhellcaller.tscn" id="2_pa8fo"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Satyr/Satyr.tscn" id="3_hwyae"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w36l2"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_e8xrm"]
+size = Vector2(3040, 380)
+
+[node name="creep_satyr" type="Node3D" unique_id=341679419]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=38719345]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_w36l2")
+mesh = SubResource("PlaneMesh_e8xrm")
+
+[node name="nsat" type="Node3D" parent="." unique_id=1723370992 instance=ExtResource("1_rxsk3")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -190, 0, 190)
+
+[node name="label_nsat" type="Label3D" parent="." unique_id=14394776]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsat  satyr"
+font_size = 40
+
+[node name="nsth" type="Node3D" parent="." unique_id=955163221 instance=ExtResource("2_pa8fo")]
+transform = Transform3D(-1.05, 0, -9.1793915e-08, 0, 1.05, 0, 9.1793915e-08, 0, -1.05, -570, 0, 190)
+
+[node name="label_nsth" type="Label3D" parent="." unique_id=2114450528]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsth  satyr"
+font_size = 40
+
+[node name="nstl" type="Node3D" parent="." unique_id=338712266 instance=ExtResource("3_hwyae")]
+transform = Transform3D(-1.8, 0, -1.57361e-07, 0, 1.8, 0, 1.57361e-07, 0, -1.8, -950, 0, 190)
+
+[node name="label_nstl" type="Label3D" parent="." unique_id=214513400]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nstl  satyr"
+font_size = 40
+
+[node name="nsts" type="Node3D" parent="." unique_id=1116171825 instance=ExtResource("1_rxsk3")]
+transform = Transform3D(-1.6, 0, -1.3987645e-07, 0, 1.6, 0, 1.3987645e-07, 0, -1.6, -1330, 0, 190)
+
+[node name="label_nsts" type="Label3D" parent="." unique_id=1986881857]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsts  satyr"
+font_size = 40
+
+[node name="nsty" type="Node3D" parent="." unique_id=131036935 instance=ExtResource("3_hwyae")]
+transform = Transform3D(-1.15, 0, -1.0053619e-07, 0, 1.15, 0, 1.0053619e-07, 0, -1.15, -1710, 0, 190)
+
+[node name="label_nsty" type="Label3D" parent="." unique_id=915725063]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nsty  satyr"
+font_size = 40

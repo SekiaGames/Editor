@@ -1,0 +1,66 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/Wendigo/Wendigo.tscn" id="1_agj8h"]
+[ext_resource type="PackedScene" path="res://assets/converted/units/creeps/WendigoShaman/WendigoShaman.tscn" id="2_x8cdk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k3s0w"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_a72aj"]
+size = Vector2(3040, 380)
+
+[node name="creep_wendigo" type="Node3D" unique_id=1822112523]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=466051905]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_k3s0w")
+mesh = SubResource("PlaneMesh_a72aj")
+
+[node name="nwen" type="Node3D" parent="." unique_id=1050469138 instance=ExtResource("1_agj8h")]
+transform = Transform3D(-0.9, 0, -7.86805e-08, 0, 0.9, 0, 7.86805e-08, 0, -0.9, -190, 0, 190)
+
+[node name="label_nwen" type="Label3D" parent="." unique_id=622844456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nwen  wendigo"
+font_size = 40
+
+[node name="nwna" type="Node3D" parent="." unique_id=1409808691 instance=ExtResource("1_agj8h")]
+transform = Transform3D(-1.65, 0, -1.4424758e-07, 0, 1.65, 0, 1.4424758e-07, 0, -1.65, -570, 0, 190)
+
+[node name="label_nwna" type="Label3D" parent="." unique_id=11152860]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nwna  wendigo"
+font_size = 40
+
+[node name="nwnr" type="Node3D" parent="." unique_id=1237977846 instance=ExtResource("1_agj8h")]
+transform = Transform3D(-1.3, 0, -1.13649605e-07, 0, 1.3, 0, 1.13649605e-07, 0, -1.3, -950, 0, 190)
+
+[node name="label_nwnr" type="Label3D" parent="." unique_id=1216835982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nwnr  wendigo"
+font_size = 40
+
+[node name="nwns" type="Node3D" parent="." unique_id=1920803626 instance=ExtResource("2_x8cdk")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -1330, 0, 190)
+
+[node name="label_nwns" type="Label3D" parent="." unique_id=1065453946]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "nwns  wendigo"
+font_size = 40

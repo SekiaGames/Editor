@@ -1,0 +1,80 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/DragonSeaTurtle/DragonSeaTurtle.tscn" id="1_dd0lb"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/GiantSeaTurtle/GiantSeaTurtle.tscn" id="2_l1cnk"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/SeaTurtleRange/SeaTurtleRange.tscn" id="3_ugf2r"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/SeaTurtle/SeaTurtle.tscn" id="4_1ahtp"]
+[ext_resource type="PackedScene" path="res://assets/converted/Units/Creeps/GiantSeaTurtleRange/GiantSeaTurtleRange.tscn" id="5_xbkti"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gpckx"]
+shading_mode = 0
+albedo_color = Color(0.18, 0.19, 0.21, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_61r77"]
+size = Vector2(3040, 380)
+
+[node name="creep_turtle" type="Node3D" unique_id=1403998180]
+metadata/map_width = 8
+metadata/map_height = 1
+metadata/view_dist = 4104.0
+metadata/view_target = Vector3(-1520, 0, 190)
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1234292791]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1520, -0.5, 190)
+material_override = SubResource("StandardMaterial3D_gpckx")
+mesh = SubResource("PlaneMesh_61r77")
+
+[node name="ntrd" type="Node3D" parent="." unique_id=1393406063 instance=ExtResource("1_dd0lb")]
+transform = Transform3D(-1.2, 0, -1.04907336e-07, 0, 1.2, 0, 1.04907336e-07, 0, -1.2, -190, 0, 190)
+
+[node name="label_ntrd" type="Label3D" parent="." unique_id=1870592981]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntrd  turtle"
+font_size = 40
+
+[node name="ntrg" type="Node3D" parent="." unique_id=1337243772 instance=ExtResource("2_l1cnk")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -570, 0, 190)
+
+[node name="label_ntrg" type="Label3D" parent="." unique_id=1680851403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -570, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntrg  turtle"
+font_size = 40
+
+[node name="ntrh" type="Node3D" parent="." unique_id=334939316 instance=ExtResource("3_ugf2r")]
+transform = Transform3D(-0.4, 0, -3.4969112e-08, 0, 0.4, 0, 3.4969112e-08, 0, -0.4, -950, 0, 190)
+
+[node name="label_ntrh" type="Label3D" parent="." unique_id=2027379645]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -950, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntrh  turtle"
+font_size = 40
+
+[node name="ntrs" type="Node3D" parent="." unique_id=350683685 instance=ExtResource("4_1ahtp")]
+transform = Transform3D(-0.5, 0, -4.371139e-08, 0, 0.5, 0, 4.371139e-08, 0, -0.5, -1330, 0, 190)
+
+[node name="label_ntrs" type="Label3D" parent="." unique_id=11204472]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1330, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntrs  turtle"
+font_size = 40
+
+[node name="ntrt" type="Node3D" parent="." unique_id=393263588 instance=ExtResource("5_xbkti")]
+transform = Transform3D(-0.8, 0, -6.9938224e-08, 0, 0.8, 0, 6.9938224e-08, 0, -0.8, -1710, 0, 190)
+
+[node name="label_ntrt" type="Label3D" parent="." unique_id=844483638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1710, 120, 320)
+pixel_size = 0.32
+billboard = 1
+no_depth_test = true
+text = "ntrt  turtle"
+font_size = 40
