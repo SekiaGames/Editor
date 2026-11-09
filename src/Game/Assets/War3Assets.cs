@@ -8,7 +8,20 @@ namespace WorldEdit.Assets;
 public static class War3Assets
 {
 
-    public static string GameRoot { get; private set; } = "D:/War3_1.27a";
+    private static string _gameRoot;
+
+    public static string GameRoot
+    {
+        get => _gameRoot ??= DefaultGameRoot();
+        private set => _gameRoot = value;
+    }
+
+    private static string DefaultGameRoot()
+    {
+        string project = ProjectSettings.GlobalizePath("res://");
+        return System.IO.Path.GetFullPath(System.IO.Path.Combine(project, "..", "test", "War3_1.27a"))
+            .Replace('\\', '/').TrimEnd('/');
+    }
 
     public const string ConvertedRoot = "res://extract/";
 
